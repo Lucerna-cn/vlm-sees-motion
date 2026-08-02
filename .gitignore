@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated dataset & results (too large for GitHub)
+data/
+results/
+results_behavior/
+
+# Model & cache files
+.cache/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.h5
+
+# Environment / secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
