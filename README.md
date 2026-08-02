@@ -115,21 +115,40 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 
 **28.0% — slightly better, still around chance (25%).** The model doesn't fail because of the A/B/C/D wrapper; it fails at the task itself.
 
+**Where did that velocity information even come from?** The representations hold velocity (R² = 0.42) — but is that a property of any vision encoder, or did language training put it there? We ran the same 2-frame velocity probe on two vision encoders without strong language training: DINOv2 (pure self-supervised vision) and SigLIP (weak contrastive vision–language).
+
+| Model | Best velocity R² | Type |
+|-------|------------------|------|
+| DINOv2 | **0.04** | Pure vision, self-supervised |
+| SigLIP | **0.07** | Weak vision–language contrastive |
+| Qwen2.5-VL | **0.42** | Strong language training |
+
+| Layer | DINOv2 R² | SigLIP R² |
+|-------|-----------|-----------|
+| 0 | 0.0409 | 0.0576 |
+| 4 | 0.0212 | 0.0556 |
+| 8 | 0.0378 | 0.0693 |
+| 11 | 0.0167 | -0.1568 |
+
+**DINOv2 and SigLIP carry almost no velocity information (0.04 / 0.07) — Qwen2.5-VL has ten times more (0.42).** Velocity encoding is not a visual prior: it was *created* by language training. The visual encoder was taught physics — and then the language head ignores it anyway.
+
 ## What it all means
 
-Three independent layers of evidence now point the same way:
+Four independent layers of evidence now point the same way:
 
 1. **Representation**: velocity exists in the visual stream, but non-linearly (R² = 0.42)
-2. **Behavior**: the language head answers with a systematic bias (72.4% pick C) at 23.6% accuracy
-3. **Causality**: destroying the velocity layers changes language output by less than 5%
+2. **Comparison**: language training created that velocity encoding — DINOv2 and SigLIP carry almost none (0.04 / 0.07)
+3. **Behavior**: the language head answers with a systematic bias (72.4% pick C) at 23.6% accuracy
+4. **Causality**: destroying the velocity layers changes language output by less than 5%
 
 | Hypothesis | Result | Evidence |
 |------------|--------|----------|
 | H1: position decodable | **Confirmed** | Linear R² = 0.97 (peak) |
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
 | H3: representation–behavior dissociation | **Extremely strongly supported** | Representation 42% vs. behavior 23.6%; causal intervention effect <5% |
+| H4: language training enhances velocity encoding | **New finding** | Qwen2.5-VL 0.42 vs. DINOv2 0.04 / SigLIP 0.07 |
 
-Visual encoding and language generation are **functionally disconnected** — the model can represent where a ball is and how it moves, but it cannot say either.
+Language training made the visual encoder *better at physics* — and the language head still ignores it. The model was taught how balls move, and then refuses to use that knowledge when answering. That is the full picture: **encoding enhanced, reasoning disconnected.**
 
 ---
 
@@ -169,7 +188,8 @@ vlm_kinematics_probing/
     ├── day3_probing.py      # Probing 主流程 main probing pipeline
     ├── day5_behavior.py     # 行为评测主流程 main behavior-evaluation pipeline
     ├── day5_behavior_open.py # 开放式行为评测 open-ended behavior evaluation
-    └── day6_intervention.py  # 因果干预实验 causal intervention experiments
+    ├── day6_intervention.py  # 因果干预实验 causal intervention experiments
+    └── day7_comparison.py    # 对比模型 probing (DINOv2/SigLIP) comparison probing
 ```
 
 ## Installation
@@ -333,21 +353,40 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 
 **28.0%——略好一点，但仍在随机水平（25%）附近。** 模型失败不是因为 A/B/C/D 的外壳，而是任务本身。
 
+**那这些速度信息是从哪儿来的？** 表征里确实有速度（R² = 0.42）——但这是视觉编码器的天然能力，还是语言训练放进去的？我们把同样的双帧速度探针，跑在两个没有强语言训练的视觉编码器上：DINOv2（纯视觉自监督）和 SigLIP（弱视觉-语言对比学习）。
+
+| 模型 Model | 最佳速度 R² Best velocity R² | 类型 Type |
+|-----------|------------------------------|-----------|
+| DINOv2 | **0.04** | 纯视觉自监督 Pure vision, self-supervised |
+| SigLIP | **0.07** | 弱视觉-语言对比 Weak vision–language contrastive |
+| Qwen2.5-VL | **0.42** | 强语言训练 Strong language training |
+
+| Layer | DINOv2 R² | SigLIP R² |
+|-------|-----------|-----------|
+| 0 | 0.0409 | 0.0576 |
+| 4 | 0.0212 | 0.0556 |
+| 8 | 0.0378 | 0.0693 |
+| 11 | 0.0167 | -0.1568 |
+
+**DINOv2 和 SigLIP 里几乎没有任何速度信息（0.04 / 0.07）——Qwen2.5-VL 高出十倍（0.42）。** 速度编码不是视觉先验：它是**被语言训练创造出来的**。视觉编码器被教会了物理——然后语言输出照样无视它。
+
 ## 这一切意味着什么
 
-三层相互独立的证据指向同一个结论：
+四层相互独立的证据指向同一个结论：
 
 1. **表征层**：速度信息存在于视觉流中，但是非线性的（R² = 0.42）
-2. **行为层**：语言头用系统性偏向作答（72.4% 选 C），准确率仅 23.6%
-3. **因果层**：破坏速度信息层后，语言输出变化不到 5%
+2. **对比层**：语言训练创造出了这段速度编码——DINOv2 和 SigLIP 几乎为零（0.04 / 0.07）
+3. **行为层**：语言头用系统性偏向作答（72.4% 选 C），准确率仅 23.6%
+4. **因果层**：破坏速度信息层后，语言输出变化不到 5%
 
 | 假设 Hypothesis | 结果 Result | 证据 Evidence |
 |----------------|------------|---------------|
 | H1: 位置可解码 Position decodable | **✓ 成立 Confirmed** | 线性 R² = 0.97（峰值） |
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
 | H3: 表征-行为解耦 Dissociation | **极强成立 Extremely strongly supported** | 表征 42% vs 行为 23.6%；因果干预影响 <5% |
+| H4: 语言训练增强速度编码 Language training enhances encoding | **新发现 New finding** | Qwen 0.42 vs DINOv2 0.04 / SigLIP 0.07 |
 
-视觉编码与语言生成之间存在**功能性断层**——模型能表征球在哪里、怎么动，却一个字都说不出来。
+语言训练让视觉编码器**更懂物理**——而语言输出依然无视它。模型被教会了球怎么动，却拒绝在回答时使用这份知识。这就是完整图景：**编码被增强，推理仍脱节。**
 
 ---
 
@@ -387,7 +426,8 @@ vlm_kinematics_probing/
     ├── day3_probing.py      # Probing 主流程
     ├── day5_behavior.py     # 行为评测主流程
     ├── day5_behavior_open.py # 开放式行为评测
-    └── day6_intervention.py  # 因果干预实验
+    ├── day6_intervention.py  # 因果干预实验
+    └── day7_comparison.py    # 对比模型 probing（DINOv2/SigLIP）
 ```
 
 ## 安装
