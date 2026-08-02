@@ -127,7 +127,7 @@ Three independent layers of evidence now point the same way:
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
 | H3: representation–behavior dissociation | **Extremely strongly supported** | Representation 42% vs. behavior 23.6%; causal intervention effect <5% |
 
-Visual encoding and language generation are **functionally disconnected** — the model can represent where a ball is and how it moves, but it cannot say either. If this story ever grows into a paper, we would title it: *"Do Vision-Language Models Know Where the Ball Goes? Evidence of Functional Decoupling between Visual Representation and Language Generation."*
+Visual encoding and language generation are **functionally disconnected** — the model can represent where a ball is and how it moves, but it cannot say either.
 
 ---
 
@@ -343,7 +343,7 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
 | H3: 表征-行为解耦 Dissociation | **极强成立 Extremely strongly supported** | 表征 42% vs 行为 23.6%；因果干预影响 <5% |
 
-视觉编码与语言生成之间存在**功能性断层**——模型能表征球在哪里、怎么动，却一个字都说不出来。如果这个故事将来长成一篇文章，我们想起个标题：*"Do Vision-Language Models Know Where the Ball Goes? Evidence of Functional Decoupling between Visual Representation and Language Generation."*
+视觉编码与语言生成之间存在**功能性断层**——模型能表征球在哪里、怎么动，却一个字都说不出来。
 
 ---
 
