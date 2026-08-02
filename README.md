@@ -100,7 +100,6 @@ We think this makes a neat workshop-paper core finding: *Qwen2.5-VL's visual rep
 
 ```
 vlm_kinematics_probing/
-├── EXPERIMENT_LOG.md        # 完整实验记录（中文）Full experiment log (Chinese)
 ├── data_generation/
 │   ├── physics_sim.py       # pymunk 2D 物理模拟 pymunk 2D physics simulation
 │   ├── renderer.py          # 三档渲染器 minimal / medium / realistic renderers
@@ -267,7 +266,6 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 
 ```
 vlm_kinematics_probing/
-├── EXPERIMENT_LOG.md        # 完整实验记录（中文）
 ├── data_generation/
 │   ├── physics_sim.py       # pymunk 2D 物理模拟
 │   ├── renderer.py          # 三档渲染器 minimal / medium / realistic
