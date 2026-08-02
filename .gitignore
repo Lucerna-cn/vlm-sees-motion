@@ -22,9 +22,6 @@ results_behavior/
 .env
 .env.local
 
-# Personal working notes (not for public release)
-EXPERIMENT_LOG.md
-
 # OS
 .DS_Store
 Thumbs.db
