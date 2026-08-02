@@ -119,10 +119,7 @@ vlm_kinematics_probing/
 └── scripts/
     ├── day1_test.py         # 环境自检 environment sanity check
     ├── day3_probing.py      # Probing 主流程 main probing pipeline
-    ├── day5_behavior.py     # 行为评测主流程 main behavior-evaluation pipeline
-    ├── server.py            # AutoDL 服务器工具（凭据走环境变量）server helpers (credentials via env vars)
-    ├── check_server.py      # 远程环境检查 remote environment check
-    └── deploy.py            # 上传代码并远程测试 upload code & run tests remotely
+    └── day5_behavior.py     # 行为评测主流程 main behavior-evaluation pipeline
 ```
 
 ## Installation
@@ -162,8 +159,7 @@ Results are saved as JSON under `results/` and `results_behavior/`.
 
 ## Notes
 
-- Experiments ran on an AutoDL RTX 5090 (32 GB) with `torch.bfloat16`; the 3B model fits comfortably.
-- `scripts/server.py` / `scripts/check_server.py` are AutoDL helpers. **Never commit real server credentials**: provide them via environment variables (`AUTODL_HOST`, `AUTODL_PORT`, `AUTODL_USERNAME`, `AUTODL_PASSWORD`), see [.env.example](.env.example).
+- Experiments ran on an RTX 5090 (32 GB) with `torch.bfloat16`; the 3B model fits comfortably.
 
 ## License
 
@@ -290,10 +286,7 @@ vlm_kinematics_probing/
 └── scripts/
     ├── day1_test.py         # 环境自检
     ├── day3_probing.py      # Probing 主流程
-    ├── day5_behavior.py     # 行为评测主流程
-    ├── server.py            # AutoDL 服务器工具（凭据走环境变量）
-    ├── check_server.py      # 远程环境检查
-    └── deploy.py            # 上传代码并远程测试
+    └── day5_behavior.py     # 行为评测主流程
 ```
 
 ## 安装
@@ -333,8 +326,7 @@ python scripts/day5_behavior.py --data_dir ./data \
 
 ## 注意事项
 
-- 实验在 AutoDL RTX 5090（32 GB）上以 `torch.bfloat16` 运行，3B 模型可以轻松加载。
-- `scripts/server.py` / `scripts/check_server.py` 是 AutoDL 辅助工具。**切勿提交真实服务器凭据**：请通过环境变量提供（`AUTODL_HOST`、`AUTODL_PORT`、`AUTODL_USERNAME`、`AUTODL_PASSWORD`），参见 [.env.example](.env.example)。
+- 实验在 RTX 5090（32 GB）上以 `torch.bfloat16` 运行，3B 模型可以轻松加载。
 
 ## 许可证
 
