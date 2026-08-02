@@ -92,14 +92,16 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 | Layer | R² |
 |-------|-----|
 | 0 | 0.3402 |
-| 8 | **0.9388** |
-| 16–31 | running |
+| 8 | 0.9388 |
+| 16 | **0.9688** |
+| 24 | 0.9529 |
+| 31 | 0.9459 |
 
-**Position decodes linearly at R² ≈ 0.94.** The pipeline has no trouble pulling information out of these representations. So the velocity result is not a method artifact: the model genuinely encodes *where* a ball is, and genuinely fails to encode *how fast it moves* in a comparable way.
+**Position decodes linearly at R² ≈ 0.97** (peaking at Layer 16, and above 0.93 at every Transformer layer from 8 up). The pipeline has no trouble pulling information out of these representations. So the velocity result is not a method artifact: the model genuinely encodes *where* a ball is — linearly and precisely — and genuinely fails to encode *how fast it moves* in a comparable way.
 
 | Information | Decodability | Encoding |
 |-------------|--------------|----------|
-| Position | Very high (R² = 0.94) | Linear |
+| Position | Very high (R² = 0.97) | Linear |
 | Velocity | Moderate (R² = 0.42) | Non-linear |
 | Acceleration | Expected very low | ? |
 
@@ -123,7 +125,7 @@ Three independent layers of evidence now point the same way:
 
 | Hypothesis | Result | Evidence |
 |------------|--------|----------|
-| H1: position decodable | **Confirmed** | Linear R² = 0.94 |
+| H1: position decodable | **Confirmed** | Linear R² = 0.97 (peak) |
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
 | H3: representation–behavior dissociation | **Extremely strongly supported** | Representation 42% vs. behavior 23.6%; causal intervention effect <5% |
 
@@ -308,14 +310,16 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 | Layer | R² |
 |-------|-----|
 | 0 | 0.3402 |
-| 8 | **0.9388** |
-| 16–31 | 进行中 |
+| 8 | 0.9388 |
+| 16 | **0.9688** |
+| 24 | 0.9529 |
+| 31 | 0.9459 |
 
-**位置可以以 R² ≈ 0.94 线性解码。** 这套流程提取表征信息毫无压力。所以速度的结果不是方法假象——模型真的编码了球**在哪**，却真的没有以可比的方式编码球**动得多快**。
+**位置可以以 R² ≈ 0.97 线性解码**（峰值在 Layer 16，Layer 8 以上全部超过 0.93）。这套流程提取表征信息毫无压力。所以速度的结果不是方法假象——模型真的编码了球**在哪**，而且是线性、精确地编码，却真的没有以可比的方式编码球**动得多快**。
 
 | 信息类型 | 可解码性 | 编码方式 |
 |---------|---------|---------|
-| 位置 | 极高 (R²=0.94) | 线性 |
+| 位置 | 极高 (R²=0.97) | 线性 |
 | 速度 | 中等 (R²=0.42) | 非线性 |
 | 加速度 | 预期极低 | ? |
 
@@ -339,7 +343,7 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 
 | 假设 Hypothesis | 结果 Result | 证据 Evidence |
 |----------------|------------|---------------|
-| H1: 位置可解码 Position decodable | **✓ 成立 Confirmed** | 线性 R² = 0.94 |
+| H1: 位置可解码 Position decodable | **✓ 成立 Confirmed** | 线性 R² = 0.97（峰值） |
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
 | H3: 表征-行为解耦 Dissociation | **极强成立 Extremely strongly supported** | 表征 42% vs 行为 23.6%；因果干预影响 <5% |
 
