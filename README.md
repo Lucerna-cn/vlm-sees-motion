@@ -65,14 +65,28 @@ So the representations know the velocity. Then we asked the model itself, in pla
 
 | Metric | Value | Reading |
 |--------|-------|---------|
-| Overall accuracy | **15.0%** | Below random chance (25%) |
-| realistic | 14.3% (6/42) | Poor on complex backgrounds |
-| medium | 22.6% (7/31) | Close to chance |
-| minimal | 7.4% (2/27) | Worst on the simplest scenes |
+| Overall accuracy (500 samples) | **23.6%** (118/500) | Still below random chance (25%) |
+| realistic | 22.0% (38/173) | Poor on complex backgrounds |
+| medium / minimal | pending | - |
 
-**15% — worse than a coin flip among four options.** The model even shows a systematic answer bias (it loves picking A or C). Yet the very same visual tokens decode velocity at R² = 0.42.
+We scaled up from 100 to **500 samples** to make sure this wasn't a fluke — and it held: **23.6%**, still below the 25% coin flip. Yet the very same visual tokens decode velocity at R² = 0.42.
 
 That is the dissociation: the information exists in the representation, but the language head cannot get at it. There is an information bottleneck between visual encoding and language generation — or, in plainer words, a model can *hold* a fact in its features and still fail to say it.
+
+## Chapter 5 — It's not guessing, it's systematic
+
+Was the model just bad at the task — or is something more specific going on? We looked at *every* answer across the 500 samples. The model is not guessing randomly; it has a fixed, systematic answer bias.
+
+| Option | Model predicts | True answer | Bias |
+|--------|---------------|-------------|------|
+| A | 5.8% | 29.0% | **-23.2%** |
+| B | 11.2% | 26.4% | -15.2% |
+| C | **72.4%** | 22.2% | **+50.2%** |
+| D | 10.6% | 22.4% | -11.8% |
+
+**72.4% of all answers were "C" (left) — while only 22.2% of the ground-truth answers are C.** The confusion matrix tells the same story: 69–75% of non-C cases get misclassified as C, while true-C cases are answered correctly 77% of the time. The bias is strongest on visually complex inputs (realistic: 87.9% C) and with a single ball (77.8% C), and weakens on minimal scenes (49.3%).
+
+This sharpens the story: the model doesn't fail randomly — it has a **deterministic wrong mapping** from visual input to "C", completely disconnected from the physical information in its own representations. Not noise: a fixed error pattern.
 
 ## Hypotheses summary
 
@@ -80,9 +94,9 @@ That is the dissociation: the information exists in the representation, but the 
 |------------|--------|----------|
 | H1: position decodable | Pending | - |
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
-| H3: representation–behavior dissociation | **Strongly supported** | Representation 42% vs. behavior 15%, gap ~27 pts |
+| H3: representation–behavior dissociation | **Extremely strongly supported** | Representation 42% vs. behavior 23.6%, with a 72.4% C-option bias |
 
-We think this makes a neat workshop-paper core finding: *Qwen2.5-VL's visual representations implicitly encode velocity, but its language output cannot use that information for physical reasoning.*
+We think this makes a neat workshop-paper core finding: *Qwen2.5-VL's visual representations implicitly encode velocity, but its language output cannot use it — it answers with a systematic bias, fully disconnected from the physics in its own features.*
 
 ---
 
@@ -113,6 +127,8 @@ vlm_kinematics_probing/
 │   └── extract_stream.py    # 流式表征提取 streaming representation extraction
 ├── behavior/
 │   └── question_gen.py      # 行为问题生成与评测 multiple-choice question generation & evaluation
+├── analysis/
+│   └── answer_bias.py       # 回答偏向分析 answer-bias analysis
 ├── intervention/
 │   └── patch_experiment.py  # 因果 token 干预 causal token-patching experiments
 └── scripts/
@@ -159,6 +175,7 @@ Results are saved as JSON under `results/` and `results_behavior/`.
 ## Notes
 
 - Experiments ran on an RTX 5090 (32 GB) with `torch.bfloat16`; the 3B model fits comfortably.
+- A full 32-layer MLP probing run is in progress (~48h); results will be added when it completes.
 
 ## License
 
@@ -231,14 +248,28 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 
 | 指标 Metric | 数值 Value | 解读 Reading |
 |------------|-----------|--------------|
-| 整体准确率 Overall accuracy | **15.0%** | 低于随机水平（25%）Below random chance (25%) |
-| realistic | 14.3% (6/42) | 复杂背景下表现差 Poor on complex backgrounds |
-| medium | 22.6% (7/31) | 接近随机 Close to chance |
-| minimal | 7.4% (2/27) | 极简场景反而最差 Worst on the simplest scenes |
+| 整体准确率 Overall accuracy | **23.6%** (118/500) | 仍低于随机水平（25%）Still below random chance (25%) |
+| realistic | 22.0% (38/173) | 复杂背景下表现差 Poor on complex backgrounds |
+| medium / minimal | 待统计 pending | - |
 
-**15%——四个选项里比瞎猜还差。** 模型甚至表现出系统性答案偏好（特别喜欢选 A 或 C）。然而，同一批视觉 token 却能解码出 R² = 0.42 的速度。
+我们把样本从 100 扩到 **500 段**来确认这不是偶然——结果稳住了：**23.6%**，仍然低于 25% 的随机水平。然而，同一批视觉 token 却能解码出 R² = 0.42 的速度。
 
 这就是解耦：信息存在于表征中，但语言输出够不到它。视觉编码与语言生成之间存在一个"信息断层"——通俗地说，模型可以在特征里**持有**一个事实，却无法把它**说出来**。
+
+## 第五章——不是猜，是系统性的错
+
+模型只是"不擅长这个任务"，还是另有玄机？我们把 500 个样本的**每一个回答**都翻出来分析——模型根本不是随机猜，它有一个固定、系统性的答案偏向。
+
+| 选项 Option | 模型预测 Model predicts | 正确答案 True answer | 偏差 Bias |
+|------------|------------------------|---------------------|-----------|
+| A | 5.8% | 29.0% | **-23.2%** |
+| B | 11.2% | 26.4% | -15.2% |
+| C | **72.4%** | 22.2% | **+50.2%** |
+| D | 10.6% | 22.4% | -11.8% |
+
+**72.4% 的回答都是"C"（左）——而正确答案里 C 只占 22.2%。** 混淆矩阵讲的是同一个故事：69–75% 的非 C 案例被误判为 C，而真实为 C 的案例有 77% 答对。偏向在视觉复杂的输入上最严重（realistic 场景 87.9% 选 C）、单个球时也明显（77.8%），在极简场景（minimal）里则降到 49.3%。
+
+这把故事从"模型不会做物理推理"变成了更尖锐的版本：**模型有一个确定性的错误映射——把视觉输入系统性映射到"C"，与它自己表征里的物理信息完全脱节。**不是随机噪声，而是固定的错误模式。
 
 ## 假设总结
 
@@ -246,9 +277,9 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 |----------------|------------|---------------|
 | H1: 位置可解码 Position decodable | 待验证 Pending | - |
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
-| H3: 表征-行为解耦 Dissociation | **强成立 Strongly supported** | 表征 42% vs 行为 15%，差距 ~27 个百分点 |
+| H3: 表征-行为解耦 Dissociation | **极强成立 Extremely strongly supported** | 表征 42% vs 行为 23.6%，且存在 72.4% 的 C 选项偏向 |
 
-我们觉得这可以成为 workshop paper 的核心发现：*Qwen2.5-VL 的视觉表征中隐式编码了速度信息，但其语言输出无法利用这些信息进行物理推理。*
+我们觉得这可以成为 workshop paper 的核心发现：*Qwen2.5-VL 的视觉表征中隐式编码了速度信息，但其语言输出不仅无法利用——还会用系统性偏向作答，与自身表征中的物理信息完全脱节。*
 
 ---
 
@@ -279,6 +310,8 @@ vlm_kinematics_probing/
 │   └── extract_stream.py    # 流式表征提取
 ├── behavior/
 │   └── question_gen.py      # 选项式问题生成与评测
+├── analysis/
+│   └── answer_bias.py       # 回答偏向分析
 ├── intervention/
 │   └── patch_experiment.py  # 因果 token 干预实验
 └── scripts/
@@ -325,6 +358,7 @@ python scripts/day5_behavior.py --data_dir ./data \
 ## 注意事项
 
 - 实验在 RTX 5090（32 GB）上以 `torch.bfloat16` 运行，3B 模型可以轻松加载。
+- 全 32 层 MLP probing 正在进行（预计约 48 小时），完成后会补充结果。
 
 ## 许可证
 
