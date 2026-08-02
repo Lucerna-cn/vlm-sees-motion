@@ -19,9 +19,9 @@ Then we asked two questions:
 
 ---
 
-## Chapter 1 — Static images are silent
+## What we found
 
-We started with the simplest possible test: a Ridge (linear) probe on a **single frame**. If velocity lives in the visual tokens in a readable, linear way, this should work.
+**A static image is silent.** We started with the simplest possible test: a Ridge (linear) probe on a single frame. If velocity lives in the visual tokens in a readable, linear way, this should just work.
 
 | Layer | R² | Baseline R² |
 |-------|-----|-------------|
@@ -31,11 +31,9 @@ We started with the simplest possible test: a Ridge (linear) probe on a **single
 | 24 | 0.3409  | 0.9131 |
 | 31 | 0.2794  | 0.9131 |
 
-R² ≈ 0. A static image carries essentially no linearly decodable velocity information — which makes sense: a photograph of a ball does not say how fast it is moving. The constant-velocity baseline (just "reuse the previous velocity") is at 0.91. So this was not a failure; it was a sanity check that passed.
+R² ≈ 0. A photograph of a ball doesn't say how fast it's moving — and the model's features agree. The constant-velocity baseline sits at 0.91, so this wasn't a failure; it was a sanity check that passed.
 
-## Chapter 2 — Two frames barely help
-
-Maybe the model needs time. We fed **two consecutive frames** and probed again.
+**Maybe the model needs time.** So we fed it two consecutive frames and probed again.
 
 | Layer | R² | Baseline R² |
 |-------|-----|-------------|
@@ -45,11 +43,9 @@ Maybe the model needs time. We fed **two consecutive frames** and probed again.
 | 24 | 0.3598 | 0.9026 |
 | 31 | 0.3519 | 0.9026 |
 
-Better, but only slightly (+0.02 ~ 0.07 R²). Even with temporal context, linear probes peak around **0.36** at the upper layers — still far below the 0.90 baseline. If velocity were sitting in the features in plain sight, this should have been easy.
+Better, but only slightly (+0.02 ~ 0.07 R²). Even with temporal context, linear probes peak around **0.36** — still far below the 0.90 baseline. If velocity were sitting in the features in plain sight, this should have been easy.
 
-## Chapter 3 — The information is hiding non-linearly
-
-Linear probes failing does not mean the information is absent. It might just be *organized* in a way a straight line cannot see. So we swapped the probe for a small 2-layer MLP.
+**Could the information just be organized non-linearly?** A linear probe failing doesn't mean the information is absent — it might be arranged in a way a straight line cannot see. So we swapped the probe for a small 2-layer MLP.
 
 | Layer | Ridge R² | MLP R² | Change |
 |-------|----------|--------|--------|
@@ -57,11 +53,9 @@ Linear probes failing does not mean the information is absent. It might just be 
 | 24 | 0.3598 | 0.4075  | +0.048 |
 | 31 | 0.3519 | 0.1543  | -0.198 |
 
-At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is there — it is just encoded non-linearly, in a form a linear readout cannot reach. (Layer 31 drops, which suggests overfitting or that the final visual layers have already transformed the signal into something sparse.)
+At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is there — it is just encoded non-linearly, in a form a linear readout cannot reach. (Layer 31 drops, which suggests overfitting, or that the final visual layers have already transformed the signal into something sparse.)
 
-## Chapter 4 — The twist
-
-So the representations know the velocity. Then we asked the model itself, in plain language: *"Which direction is ball 0 moving next?"* (A/B/C/D, four choices, 25% chance).
+**So the representations know the velocity. Does the language head know it too?** We asked the model in plain language: *"Which direction is ball 0 moving next?"* (A/B/C/D, four choices, 25% chance). To make sure the result held, we scaled from 100 up to **500 samples**.
 
 | Metric | Value | Reading |
 |--------|-------|---------|
@@ -69,13 +63,9 @@ So the representations know the velocity. Then we asked the model itself, in pla
 | realistic | 22.0% (38/173) | Poor on complex backgrounds |
 | medium / minimal | pending | - |
 
-We scaled up from 100 to **500 samples** to make sure this wasn't a fluke — and it held: **23.6%**, still below the 25% coin flip. Yet the very same visual tokens decode velocity at R² = 0.42.
+**23.6% — still below a coin flip.** Yet the very same visual tokens decode velocity at R² = 0.42. The information exists in the representation, but the language head cannot get at it.
 
-That is the dissociation: the information exists in the representation, but the language head cannot get at it. There is an information bottleneck between visual encoding and language generation — or, in plainer words, a model can *hold* a fact in its features and still fail to say it.
-
-## Chapter 5 — It's not guessing, it's systematic
-
-Was the model just bad at the task — or is something more specific going on? We looked at *every* answer across the 500 samples. The model is not guessing randomly; it has a fixed, systematic answer bias.
+**Was it bad luck, or a systematic pattern?** We looked at *every* one of the 500 answers — and the model is not guessing randomly at all. It has a fixed answer bias.
 
 | Option | Model predicts | True answer | Bias |
 |--------|---------------|-------------|------|
@@ -84,13 +74,9 @@ Was the model just bad at the task — or is something more specific going on? W
 | C | **72.4%** | 22.2% | **+50.2%** |
 | D | 10.6% | 22.4% | -11.8% |
 
-**72.4% of all answers were "C" (left) — while only 22.2% of the ground-truth answers are C.** The confusion matrix tells the same story: 69–75% of non-C cases get misclassified as C, while true-C cases are answered correctly 77% of the time. The bias is strongest on visually complex inputs (realistic: 87.9% C) and with a single ball (77.8% C), and weakens on minimal scenes (49.3%).
+**72.4% of all answers were "C" (left) — while only 22.2% of the ground-truth answers are C.** The confusion matrix tells the same story: 69–75% of non-C cases get misclassified as C, while true-C cases are answered correctly 77% of the time. The bias is strongest on visually complex inputs (realistic: 87.9% C) and with a single ball (77.8% C), and weakens on minimal scenes (49.3%). The model doesn't fail randomly — it has a **deterministic wrong mapping** from visual input to "C", completely disconnected from the physical information in its own representations.
 
-This sharpens the story: the model doesn't fail randomly — it has a **deterministic wrong mapping** from visual input to "C", completely disconnected from the physical information in its own representations. Not noise: a fixed error pattern.
-
-## Chapter 6 — Poking the layers: a causal test
-
-The language head doesn't use the velocity information — but can we *prove* it causally? We patched the tokens where velocity lives (Layers 16 & 24) by replacing them with their mean, then re-ran the behavior test (100 sequences × 2 layers = 200 interventions).
+**Could we prove the language head never reads those velocity layers?** If it did, destroying them should wreck its answers. So we patched the tokens where velocity lives (Layers 16 & 24) — replacing them with their mean — and re-ran the behavior test (100 sequences × 2 layers = 200 interventions).
 
 | Metric | Value | Reading |
 |--------|-------|---------|
@@ -99,11 +85,9 @@ The language head doesn't use the velocity information — but can we *prove* it
 | Behavior change rate | 18.0% | Some answers changed |
 | **Accuracy drop rate** | **4.5%** | **Key metric** |
 
-**Destroying the velocity-information layers changed the language output by less than 5%.** If the language head were reading those representations, corrupting them should have wrecked its answers. It barely noticed. This is the causal half of the dissociation: the information exists in the visual stream, and the language head simply does not use it.
+**The accuracy dropped by just 4.5%.** The language output barely noticed. This is the causal half of the dissociation: the information exists in the visual stream, and the language head simply does not use it.
 
-## Chapter 7 — A sanity check that makes it airtight
-
-Before claiming the probe "found" velocity, we had to prove the probing method itself works. We probed for something a vision encoder must know — **ball position (x, y)** — with the same setup.
+**Was the probe even working?** Before trusting the velocity finding, we had to prove the probing method itself can extract information. So we decoded something a vision encoder must know — **ball position (x, y)** — with the same setup.
 
 | Layer | R² |
 |-------|-----|
@@ -111,7 +95,7 @@ Before claiming the probe "found" velocity, we had to prove the probing method i
 | 8 | **0.9388** |
 | 16–31 | running |
 
-**Position decodes linearly at R² ≈ 0.94.** The pipeline can extract information from these representations with ease. So the velocity result is not a method artifact — the model genuinely encodes *where* a ball is, and genuinely fails to encode *how fast it moves* in a comparable way.
+**Position decodes linearly at R² ≈ 0.94.** The pipeline has no trouble pulling information out of these representations. So the velocity result is not a method artifact: the model genuinely encodes *where* a ball is, and genuinely fails to encode *how fast it moves* in a comparable way.
 
 | Information | Decodability | Encoding |
 |-------------|--------------|----------|
@@ -119,9 +103,7 @@ Before claiming the probe "found" velocity, we had to prove the probing method i
 | Velocity | Moderate (R² = 0.42) | Non-linear |
 | Acceleration | Expected very low | ? |
 
-## Chapter 8 — It's not the question format
-
-Could the multiple-choice format be the problem? We asked the same question **open-endedly** (200 samples). Accuracy: **28.0%** vs. 23.6% with options — slightly better, still around chance (25%). The model doesn't fail because of the A/B/C/D wrapper; it fails at the task itself.
+**Was the multiple-choice format the problem?** One more possibility to rule out. We asked the same question **open-endedly** (200 samples).
 
 | Format | Accuracy |
 |--------|----------|
@@ -129,7 +111,15 @@ Could the multiple-choice format be the problem? We asked the same question **op
 | Open-ended | 28.0% |
 | Unparseable | 3.0% |
 
-## Hypotheses summary
+**28.0% — slightly better, still around chance (25%).** The model doesn't fail because of the A/B/C/D wrapper; it fails at the task itself.
+
+## What it all means
+
+Three independent layers of evidence now point the same way:
+
+1. **Representation**: velocity exists in the visual stream, but non-linearly (R² = 0.42)
+2. **Behavior**: the language head answers with a systematic bias (72.4% pick C) at 23.6% accuracy
+3. **Causality**: destroying the velocity layers changes language output by less than 5%
 
 | Hypothesis | Result | Evidence |
 |------------|--------|----------|
@@ -137,15 +127,7 @@ Could the multiple-choice format be the problem? We asked the same question **op
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
 | H3: representation–behavior dissociation | **Extremely strongly supported** | Representation 42% vs. behavior 23.6%; causal intervention effect <5% |
 
-The story is now backed by three independent layers of evidence:
-
-1. **Representation**: velocity exists in the visual stream, but non-linearly (R² = 0.42)
-2. **Behavior**: the language head answers with a systematic bias (72.4% pick C) at 23.6% accuracy
-3. **Causality**: destroying the velocity layers changes language output by less than 5%
-
-*Visual encoding and language generation are functionally disconnected — the model can represent where a ball is and how it moves, but it cannot say either.*
-
-A working title for this story: **"Do Vision-Language Models Know Where the Ball Goes? Evidence of Functional Decoupling between Visual Representation and Language Generation"**
+Visual encoding and language generation are **functionally disconnected** — the model can represent where a ball is and how it moves, but it cannot say either. If this story ever grows into a paper, we would title it: *"Do Vision-Language Models Know Where the Ball Goes? Evidence of Functional Decoupling between Visual Representation and Language Generation."*
 
 ---
 
@@ -253,9 +235,9 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-## 第一章——静态图像是沉默的
+## 我们发现了什么
 
-我们从最简单的测试开始：在**单帧**图像上用 Ridge（线性）探针。如果速度以可读的线性方式存在于视觉 token 中，这一步就应该成功。
+**静态图像是沉默的。** 我们从一个最简单的测试开始：在单帧图像上用 Ridge（线性）探针。如果速度以可读的线性方式存在于视觉 token 中，这一步就应该成功。
 
 | Layer | R² | Baseline R² |
 |-------|-----|-------------|
@@ -265,11 +247,9 @@ MIT — see [LICENSE](LICENSE).
 | 24 | 0.3409  | 0.9131 |
 | 31 | 0.2794  | 0.9131 |
 
-R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很合理：一张小球的照片并不能告诉你它运动得多快。恒定速度基线（"直接复用上一帧速度"）有 0.91。所以这不是失败，而是一次通过的 sanity check。
+R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模型的特征也这么认为。恒定速度基线是 0.91，所以这不是失败，而是一次通过的 sanity check。
 
-## 第二章——两帧也只是略微帮忙
-
-也许模型需要时间维度。我们输入**连续两帧**，再次探测。
+**也许模型需要时间。** 于是我们输入连续两帧，再次探测。
 
 | Layer | R² | Baseline R² |
 |-------|-----|-------------|
@@ -281,9 +261,7 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 
 有进步，但只有一点点（+0.02 ~ 0.07 R²）。即使有了时序信息，线性探针在高层的峰值也只有 **0.36** 左右——仍远低于 0.90 的基线。如果速度就摆在特征里，这一步本该轻而易举。
 
-## 第三章——信息以非线性形式隐藏着
-
-线性探针失败，不代表信息不存在。它可能只是以一种"直线看不出来"的方式组织着。于是我们把探针换成一个小型 2 层 MLP。
+**会不会是信息藏得太深，直线读不出来？** 线性探针失败，不代表信息不存在——它可能只是以一种"直线看不出来"的方式组织着。于是我们把探针换成一个小型 2 层 MLP。
 
 | Layer | Ridge R² | MLP R² | 变化 Change |
 |-------|----------|--------|------------|
@@ -293,9 +271,7 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 
 在中层（16–24），MLP 跃升到 **R² ≈ 0.42**。速度确实在那里——只是以非线性形式编码，线性读取够不着。（Layer 31 反而下降，可能过拟合，也可能最后的视觉层已经把信号变换得稀疏了。）
 
-## 第四章——反转来了
-
-所以表征"知道"速度。然后我们直接用自然语言问模型：*"编号为 0 的球接下来最可能向哪个方向运动？"*（A/B/C/D 四选一，随机水平 25%。）
+**所以表征"知道"速度。那语言输出知道吗？** 我们直接用自然语言问模型：*"编号为 0 的球接下来最可能向哪个方向运动？"*（A/B/C/D 四选一，随机水平 25%）。为了确认结果稳健，我们把样本从 100 扩到 **500 段**。
 
 | 指标 Metric | 数值 Value | 解读 Reading |
 |------------|-----------|--------------|
@@ -303,13 +279,9 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 | realistic | 22.0% (38/173) | 复杂背景下表现差 Poor on complex backgrounds |
 | medium / minimal | 待统计 pending | - |
 
-我们把样本从 100 扩到 **500 段**来确认这不是偶然——结果稳住了：**23.6%**，仍然低于 25% 的随机水平。然而，同一批视觉 token 却能解码出 R² = 0.42 的速度。
+**23.6%——仍然低于随机水平。** 然而，同一批视觉 token 却能解码出 R² = 0.42 的速度。信息存在于表征中，但语言输出够不到它。
 
-这就是解耦：信息存在于表征中，但语言输出够不到它。视觉编码与语言生成之间存在一个"信息断层"——通俗地说，模型可以在特征里**持有**一个事实，却无法把它**说出来**。
-
-## 第五章——不是猜，是系统性的错
-
-模型只是"不擅长这个任务"，还是另有玄机？我们把 500 个样本的**每一个回答**都翻出来分析——模型根本不是随机猜，它有一个固定、系统性的答案偏向。
+**是运气不好，还是另有玄机？** 我们把 500 个回答**全部**翻出来分析——模型根本不是随机猜，它有一个固定、系统性的答案偏向。
 
 | 选项 Option | 模型预测 Model predicts | 正确答案 True answer | 偏差 Bias |
 |------------|------------------------|---------------------|-----------|
@@ -318,13 +290,9 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 | C | **72.4%** | 22.2% | **+50.2%** |
 | D | 10.6% | 22.4% | -11.8% |
 
-**72.4% 的回答都是"C"（左）——而正确答案里 C 只占 22.2%。** 混淆矩阵讲的是同一个故事：69–75% 的非 C 案例被误判为 C，而真实为 C 的案例有 77% 答对。偏向在视觉复杂的输入上最严重（realistic 场景 87.9% 选 C）、单个球时也明显（77.8%），在极简场景（minimal）里则降到 49.3%。
+**72.4% 的回答都是"C"（左）——而正确答案里 C 只占 22.2%。** 混淆矩阵讲的是同一个故事：69–75% 的非 C 案例被误判为 C，真实为 C 的案例有 77% 答对。偏向在视觉复杂的输入上最严重（realistic 场景 87.9% 选 C）、单个球时也明显（77.8%），在极简场景（minimal）里则降到 49.3%。模型不是随机失败——它有一个**确定性的错误映射**，把视觉输入系统性映射到"C"，与它自己表征里的物理信息完全脱节。
 
-这把故事从"模型不会做物理推理"变成了更尖锐的版本：**模型有一个确定性的错误映射——把视觉输入系统性映射到"C"，与它自己表征里的物理信息完全脱节。**不是随机噪声，而是固定的错误模式。
-
-## 第六章——戳一戳这些层：因果验证
-
-表征"知道"速度，但语言输出就是不用——这能**证明**吗？我们把速度信息最强的 Layer 16、24 的球 token 全部替换成均值（patch），再跑行为测试（100 段 × 2 层 = 200 次干预）。
+**能不能证明语言头根本不读那些速度层？** 如果它在读，破坏这些层就该摧毁它的回答。于是我们把速度信息最强的 Layer 16、24 的球 token 全部替换成均值（patch），再跑行为测试（100 段 × 2 层 = 200 次干预）。
 
 | 指标 | 数值 | 解读 |
 |------|------|------|
@@ -333,11 +301,9 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 | 行为改变率 | 18.0% | 部分回答发生变化 |
 | **准确率下降率** | **4.5%** | **关键指标** |
 
-**破坏速度信息层后，语言输出只下降了不到 5%。** 如果语言生成真的在读取这些表征，篡改它们应该会摧毁回答——但它几乎无动于衷。这就是解耦的因果半边：信息在视觉流里，语言头就是不用。
+**准确率只下降了 4.5%。** 语言输出几乎无动于衷。这就是解耦的因果半边：信息在视觉流里，语言头就是不用。
 
-## 第七章——让结论无懈可击的 sanity check
-
-在宣称探针"找到"速度之前，必须先证明探针方法本身有效。我们用同样的流程去探测视觉编码器必须知道的东西——**球的位置 (x, y)**。
+**那探针本身靠谱吗？** 在相信"速度结果"之前，必须先证明这套探针流程真的能提取信息。于是我们用同样的流程去解码一个视觉编码器必须知道的东西——**球的位置 (x, y)**。
 
 | Layer | R² |
 |-------|-----|
@@ -353,9 +319,7 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 | 速度 | 中等 (R²=0.42) | 非线性 |
 | 加速度 | 预期极低 | ? |
 
-## 第八章——不是提问方式的问题
-
-会不会是选项式提问限制了模型？我们把同样的问题改成**开放式**（200 段样本）：准确率 **28.0%**，选项式是 23.6%——略好一点，但仍在随机水平（25%）附近打转。模型失败不是因为 A/B/C/D 的外壳，而是任务本身。
+**会不会是选项式提问限制了模型？** 还有一个可能要先排除。我们把同样的问题改成**开放式**（200 段样本）。
 
 | 提问方式 | 准确率 |
 |---------|--------|
@@ -363,7 +327,15 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 | 开放式 | 28.0% |
 | 无法解析 | 3.0% |
 
-## 假设总结
+**28.0%——略好一点，但仍在随机水平（25%）附近。** 模型失败不是因为 A/B/C/D 的外壳，而是任务本身。
+
+## 这一切意味着什么
+
+三层相互独立的证据指向同一个结论：
+
+1. **表征层**：速度信息存在于视觉流中，但是非线性的（R² = 0.42）
+2. **行为层**：语言头用系统性偏向作答（72.4% 选 C），准确率仅 23.6%
+3. **因果层**：破坏速度信息层后，语言输出变化不到 5%
 
 | 假设 Hypothesis | 结果 Result | 证据 Evidence |
 |----------------|------------|---------------|
@@ -371,15 +343,7 @@ R² ≈ 0。静态图像几乎不含可线性解码的速度信息——这很�
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
 | H3: 表征-行为解耦 Dissociation | **极强成立 Extremely strongly supported** | 表征 42% vs 行为 23.6%；因果干预影响 <5% |
 
-现在这个故事由三层相互独立的证据支撑：
-
-1. **表征层**：速度信息存在于视觉流中，但是非线性的（R² = 0.42）
-2. **行为层**：语言头用系统性偏向作答（72.4% 选 C），准确率仅 23.6%
-3. **因果层**：破坏速度信息层后，语言输出变化不到 5%
-
-*视觉编码与语言生成之间存在功能性断层——模型能表征球在哪里、怎么动，却一个字都说不出来。*
-
-建议标题：**"Do Vision-Language Models Know Where the Ball Goes? Evidence of Functional Decoupling between Visual Representation and Language Generation"**
+视觉编码与语言生成之间存在**功能性断层**——模型能表征球在哪里、怎么动，却一个字都说不出来。如果这个故事将来长成一篇文章，我们想起个标题：*"Do Vision-Language Models Know Where the Ball Goes? Evidence of Functional Decoupling between Visual Representation and Language Generation."*
 
 ---
 
