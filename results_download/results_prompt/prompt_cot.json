@@ -1,0 +1,902 @@
+[
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001422",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为1的球目前处于静止状态。因此，它的速度",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001190",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于图像的左上角。由于",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000566",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为2的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为2的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000802",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001626",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001594",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001920",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000513",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000177",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "raw_response": "答案是 B. 下。因为编号为1的球在重力的作用下会向下运动",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001308",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000914",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球是一个绿色的球体，它在",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001452",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001695",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于一个斜面上。由于斜面",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000242",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001156",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为0的球是一个红色的球体，上面有一个白色的圆",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000198",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000774",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于一个斜面上。由于斜面",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000425",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，编号为1的球目前处于静止状态。因此，它的速度方向",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000943",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000822",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000277",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000164",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接看到编号为0的球的具体位置或运动状态。但是",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000547",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球在空中飞行。由于没有提供具体的",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001983",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于图像的中心位置。由于没有",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000538",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001724",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "raw_response": "答案：B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001311",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球目前处于一个倾斜的位置。由于没有",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001838",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，编号为0的球目前处于一个静止状态。由于没有提供任何",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000997",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于一个绿色的圆圈内。",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001568",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球是一个绿色的球体，它在",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001300",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001310",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000327",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于图像的左下角。由于",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000490",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001620",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接从图像中获取信息来确定编号为0的球的具体",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000408",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，编号为1的球目前处于静止状态。在没有外力作用",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000832",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001079",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球正在接触另一个绿色的球。由于",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001462",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为2的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为2的球位于右下角。由于没有其他物体或",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001253",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000054",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于一个斜面上，并且受到重",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000064",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于图像的底部中心位置。由于",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001451",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001901",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们假设这是一个简单的物理问题，涉及到一个静止的球（编号为",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001481",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为1的球目前处于静止状态。因此，它的速度",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000150",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001335",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "raw_response": "答案：B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000946",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球正在向上移动。因此，根据其",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001293",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000161",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于图像的左上角。由于",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001076",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于图像的中心位置。由于没有",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001057",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "raw_response": "答案：B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000768",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接从图像中获取信息来确定编号为0的球的具体",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001640",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中相遇。由于没有提供具体的物理条件（",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001495",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000285",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001926",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000524",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001332",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为0的球位于一个红色圆圈内。由于没有提供",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000332",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为0的球位于一个红色的球体上。由于没有",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000717",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为0的球是一个红色的小球，它在灰色背景上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000079",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们假设这是一个简单的物理问题，涉及到一个静止的球在受到外",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001389",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000722",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000951",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于一个斜面上。由于重力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001583",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于图像的左上角。由于",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000262",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "raw_response": "答案：B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000989",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于图像的右上角。由于",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001212",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001759",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于一个斜面上。由于斜面",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000919",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为1的球目前处于静止状态。由于没有外力",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000422",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001724",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为2的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为2的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000341",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们观察到编号为0的球位于图像的顶部。由于没有提供",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001701",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000243",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为1的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000688",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001432",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000966",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球在空中飞行。由于没有提供具体的",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001666",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，编号为0的球是一个红色的球体，它在空中飞行。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000203",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000713",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球位于图像的左上角。由于",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000757",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于一个斜面上。由于重力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001732",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球在空中飞行。由于没有其他物体",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001942",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001572",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接看到编号为1的球的具体位置或运动状态。但是",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000805",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001990",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于图像的左上角。由于",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000120",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球位于一个红色圆圈内。由于",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000759",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000914",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为2的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为2的球位于一个斜面上。由于斜面",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001553",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001793",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为0的球是一个红色的小球，它在灰色背景上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001600",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001472",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001971",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为1的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球正朝右上方运动。由于没有",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000938",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "raw_response": "答案：B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000385",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图中的信息，我们可以看到编号为0的球正处在一条斜线的上方。",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001228",
+    "prompt_type": "cot"
+  },
+  {
+    "question": "让我们一步步分析这个物理问题：\n1. 观察编号为0的球当前的运动状态\n2. 分析其速度方向和大小\n3. 预测其接下来的运动轨迹\n\n根据以上分析，编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n答案：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们无法直接观察到编号为0的球的具体运动状态。但是，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001474",
+    "prompt_type": "cot"
+  }
+]

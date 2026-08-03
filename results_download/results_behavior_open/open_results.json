@@ -1,0 +1,1606 @@
+{
+  "accuracy": 0.28,
+  "unknown_rate": 0.03,
+  "results": [
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正在向右上方移动，其轨迹与蓝色直线平行。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001422"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001190"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000566"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000802"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将沿着蓝色直线的方向移动，继续向右上方前进。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001626"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001594"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001920"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据给定的初始条件，编号为0的球将沿着与x轴正方向成45度角的方向运动。这意味着球的速度在x和y两个方向上的分量相等，均为v_0 / √2",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000513"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将沿着蓝色箭头的方向移动，即向右上方偏移。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000177"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "左",
+      "raw_response": "编号为1的球将向左移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001308"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "未知",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿着其当前轨迹前进。由于没有其他力的作用（如重力或摩擦力），球将保持直线运动。如果在运动过程中遇到任何障碍物或其他物体，球可能会",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000914"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001452"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001695"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000242"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球（红色球）将向左上方移动，然后向右下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001156"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000198"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "左",
+      "raw_response": "编号为1的球将向左移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000774"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "未知",
+      "raw_response": "编号为1的球将沿着蓝色直线继续前进，直到与绿色圆接触。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000425"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动，因为它的初始位置在右上角，且速度向左上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000943"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000822"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其速度和加速度都指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000277"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "未知",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿着其当前轨迹前进。由于没有其他力的作用（如重力或摩擦力），球将保持直线运动。如果在运动过程中遇到任何障碍物或其他物体，球可能会",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000164"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正在向右上方移动，其速度和加速度都指向这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000547"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，然后向左下方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001983"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000538"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将沿着绿色箭头的方向移动，即向右上方倾斜。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001724"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "未知",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿着其当前轨迹前进。由于没有其他力的作用（如重力或摩擦力），球将保持直线运动。如果在运动过程中遇到任何障碍物或其他物体，球可能会",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001311"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后继续沿着这个方向前进。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001838"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000997"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001568"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001300"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "球0将向右上方移动，然后在到达边界后反弹。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001310"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "右",
+      "raw_response": "编号为0的球将向右移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000327"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000490"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "下",
+      "raw_response": "根据图片中的信息，编号为0的球正向右下方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001620"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000408"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动，因为它的初始位置在右上角，且速度向左上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000832"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001079"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，然后向左下方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001462"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001253"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000054"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000064"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001451"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向左上方移动，因为它的速度向左上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001901"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001481"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000150"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001335"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000946"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001293"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000161"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001076"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001057"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始速度和加速度的方向都是向右上方的。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000768"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001640"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001495"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度向右上方。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000285"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001926"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000524"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图像中的信息，编号为0的球正向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001332"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000332"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000717"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000079"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001389"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度向右大于向上。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000722"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000951"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001583"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000262"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000989"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001212"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "右",
+      "raw_response": "编号为0的球将向右移动，因为它的箭头指向右侧。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001759"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度矢量指向这个方向。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000919"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其速度和加速度的方向都是向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000422"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "下",
+      "raw_response": "根据给定的信息，编号为0的球正在向右下方运动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001724"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000341"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001701"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000243"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度向右上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000688"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001432"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000966"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001666"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "球0将向右上方移动，然后在空中旋转并继续向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000203"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000713"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将沿着与蓝色线垂直的方向移动，即向右上方偏移。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000757"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正沿着一条斜线向右上方移动。由于没有其他物体或力的作用，我们可以假设球将继续沿着这条斜线的方向和速度不变地前进。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001732"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001942"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001572"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "未知",
+      "raw_response": "编号为1的球将沿着与地面平行的方向移动，因为它的初始速度和加速度都指向这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000805"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿直线向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001990"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将沿着与水平线成45度角的方向移动，即向右上方倾斜。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000120"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后继续沿着这个方向前进。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000759"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000914"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001553"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其轨迹与水平线和垂直线之间的夹角大约为45度。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001793"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "下",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001600"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001472"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将沿着与水平线成45度角的方向移动，即向右上方倾斜。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001971"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "未知",
+      "raw_response": "编号为1的球将沿着与地面平行的方向移动，因为它的初始速度和加速度都指向这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000938"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始速度和加速度的方向都是向右上方。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000385"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "下",
+      "raw_response": "编号为0的球将沿着与地面平行的方向移动，具体来说，它会向右下方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001228"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001474"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始位置在左上角，且箭头指向右上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000536"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度向量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001621"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球正向右上方移动，其轨迹呈抛物线状。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000212"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001507"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "下",
+      "raw_response": "根据当前的图像，编号为0的球正向右下方移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000201"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "下",
+      "raw_response": "根据图片中的信息，编号为0的球正向右下方运动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001332"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001502"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000708"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，因为它的速度矢量指向这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000662"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，沿着一条斜线轨迹前进。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000021"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始位置在左下角，而目标位置在右上角。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001854"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正在向右上方移动，其速度和加速度的方向都是向右上方。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001358"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000872"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "球0将向右上方移动，然后在到达边界后反弹。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001030"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "左",
+      "raw_response": "编号为2的球将向左移动，因为它的箭头指向左侧。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001205"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始位置在左下角，且箭头指向右上。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001645"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001417"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001476"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000861"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度向右上方。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_001792"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001797"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在运动，并且它的位置在图像的左上角。由于没有其他物体或力的作用，我们可以假设球将继续沿着当前的方向和速度继续移动。\n\n如果球的速度保持不变，那么",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001368"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001367"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001533"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001259"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方运动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001449"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始速度和加速度的方向都是向右上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000603"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方运动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001056"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球正向右上方移动，其轨迹与水平线和垂直线形成一定的角度。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001212"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "左",
+      "raw_response": "编号为2的球将向左移动，因为它的箭头指向左侧。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000126"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "右",
+      "raw_response": "编号为0的球（红色球）将向右移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001876"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000935"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其轨迹将穿过其他所有球体。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000451"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001531"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000730"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "左",
+      "raw_response": "编号为0的球将向右移动，因为它的初始位置在左侧，而箭头指向右侧。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000827"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "下",
+      "raw_response": "根据当前的运动状态，编号为0的球将继续沿着其当前轨迹前进。由于没有其他力的作用（如重力或摩擦力），球将保持直线运动。如果在特定条件下存在阻力或其他影响因素，球的运动",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001639"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度向右上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000984"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "下",
+      "raw_response": "根据图片中的信息，编号为0的球正在运动。由于没有提供具体的运动轨迹或速度等详细信息，无法准确预测其下一步的具体运动方向。通常情况下，球的运动方向会受到重力、摩擦力和空气",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001281"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正在向右上方移动，其轨迹与另一条线相交。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001962"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000188"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其速度和加速度都指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001523"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方运动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000443"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "左",
+      "raw_response": "编号为0的球将向左移动，因为它的箭头指向左侧。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000362"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000349"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000345"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的速度向右大于向上。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000814"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球正向右上方移动，其轨迹与另一只球相交。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000807"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向左上方移动，因为它的初始位置在蓝色球的左侧和下方。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001205"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其轨迹与蓝色直线相交。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001414"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其轨迹与另一条线相交。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001749"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001325"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000106"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000116"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的初始位置在左上角，而最终目标是右下角。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001834"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向左上方移动，因为它的速度向左上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000793"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动，其轨迹与蓝色直线平行。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001935"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000674"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000094"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将沿着与蓝色线垂直的方向移动，即向右上方偏移。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000225"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001756"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000891"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000371"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正在向右上方移动，其速度和加速度都指向这个方向。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_000965"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将沿着绿色箭头的方向移动，即向右上方倾斜。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001667"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001228"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将沿着与蓝色线平行的方向移动，具体来说，它会向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001342"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000853"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000912"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度向右上方倾斜。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001865"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000612"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "下",
+      "raw_response": "根据图片中的信息，编号为0的球正向右下方运动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001857"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000645"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000243"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方运动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000336"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右移动，然后向上移动。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_000950"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_001068"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，因为它的速度矢量指向右上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001120"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000597"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000204"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "左",
+      "raw_response": "编号为2的球将向左移动，因为它的箭头指向左侧。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000419"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始速度和加速度的方向都是向右上方。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000922"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，因为它的初始位置在左下角，而目标位置在右上角。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001254"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度向右上方。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_000477"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000035"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "右",
+      "raw_response": "编号为1的球将向右移动，因为它的速度向右。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001202"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000626"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，然后向左下方移动。",
+      "correct": true,
+      "seq_dir": "data/realistic/seq_001773"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "下",
+      "raw_response": "根据图像中的信息，编号为0的球正向右下方移动。",
+      "correct": true,
+      "seq_dir": "data/minimal/seq_001970"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001110"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球正在向右上方移动，其速度和加速度的方向都是向右上方。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000018"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_000151"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "左",
+      "raw_response": "编号为2的球将向左移动。",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001687"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，因为它的箭头指向了这个方向。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000916"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为0的球将向右上方运动，因为它的初始速度和加速度的方向都是向右上方的。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001997"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向右上方移动，然后向左下方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_000033"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为2的球接下来的运动方向。",
+      "correct_answer": "右",
+      "predicted_answer": "上",
+      "raw_response": "编号为2的球将向左上方移动。",
+      "correct": false,
+      "seq_dir": "data/realistic/seq_001883"
+    },
+    {
+      "question": "图中1个球正在运动。请描述编号为0的球接下来的运动方向。",
+      "correct_answer": "左",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为0的球正在运动。由于没有提供更多的背景信息或上下文，我无法确定球的具体运动方向。球可能在空中飞行、滚动或者移动到其他位置。为了更准确地描述球",
+      "correct": false,
+      "seq_dir": "data/medium/seq_001054"
+    },
+    {
+      "question": "图中3个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "下",
+      "predicted_answer": "上",
+      "raw_response": "编号为1的球将向右上方移动，因为它的速度向右上方。",
+      "correct": false,
+      "seq_dir": "data/minimal/seq_001248"
+    },
+    {
+      "question": "图中2个球正在运动。请描述编号为1的球接下来的运动方向。",
+      "correct_answer": "上",
+      "predicted_answer": "上",
+      "raw_response": "根据图片中的信息，编号为1的球正向右上方移动。",
+      "correct": true,
+      "seq_dir": "data/medium/seq_000192"
+    }
+  ]
+}

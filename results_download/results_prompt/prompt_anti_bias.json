@@ -1,0 +1,902 @@
+[
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001422",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001190",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000566",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和物体的位置关系，编号为2的球似乎在右侧有一个明显的",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000802",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为1的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001626",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为2的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001594",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为1的球接下来最可能向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001920",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000513",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和物体之间的相对位置关系，编号为0的球似乎在图像",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000177",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001308",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000914",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为1的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001452",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001695",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000242",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，无法确定编号为1的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001156",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000198",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的两个球的位置关系，编号为1的球在编号为0的球的",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000774",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中飞行，并且其轨迹看起来",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000425",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为2的球位于图像的右上角。在没有其他",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000943",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000822",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在一条斜线上的位置，这条",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000277",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000164",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在图像的中心位置，周围有",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000547",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为2的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001983",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，两个球的位置和相对位置关系无法确定它们之间的运动关系。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000538",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来最可能向哪个方向运动",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001724",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_001311",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎处于一个平衡点的位置，周围有",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001838",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和球体之间的相对位置关系，编号为1的球体似乎",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000997",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001568",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为1的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001300",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001310",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000327",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000490",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在图像的中心位置，周围有",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001620",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和物体的相对位置，编号为0的球似乎在图像的",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000408",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为2的球位于图像的右上角。在没有其他",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000832",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为2的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001079",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，两个球的位置关系是绿色球在红色球上方。通常情况下",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001462",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为2的球似乎在右侧有一个明显的力的作用点，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001253",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000054",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为1的球似乎在空中悬浮，并且没有明显的重",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000064",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，两个球的位置关系和相对位置并没有明显的指向性或惯性",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001451",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为2的球位于图像的中心位置，周围没有明显的障碍",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001901",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001481",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000150",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为2的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001335",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000946",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，两个球的位置关系和颜色差异，我们可以推测出它们之间的相对",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001293",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为1的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000161",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，编号为1的球似乎在空中悬浮，并且没有明显的重",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001076",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001057",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000768",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图中的视觉线索和物体之间的相对位置关系，编号为2的球似乎在右侧",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001640",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，两个球的位置关系是红色球在绿色球的上方。因此",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001495",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000285",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和物体之间的相对位置关系，编号为2的球似乎在空中",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001926",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并且没有明显的重",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000524",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001332",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000332",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000717",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来最可能向哪个方向运动",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000079",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001389",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的位置关系和颜色编码，我们可以推断出编号为1的球在图",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000722",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000951",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，没有明显的重力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001583",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000262",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000989",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为1的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001212",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，编号为0的球位于底部，而编号为1的球位于",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001759",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和物体的相对位置，编号为2的球似乎在左侧，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000919",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为1的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000422",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001724",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000341",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，两个球的位置和相对位置关系并不足以确定编号为1的",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001701",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000243",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的位置关系和颜色编码，我们可以看到编号为2的球位于左侧，而",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000688",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，两个球的位置和相对距离表明它们之间存在一定的互动力。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001432",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000966",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，编号为0的球似乎在空中悬浮，没有明显的重力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001666",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000203",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，两个球的位置关系是红色球在绿色球的上方。因此",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000713",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉线索和物体之间的相对位置关系，编号为1的球似乎在右侧",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000757",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉线索和物体的相对位置，编号为0的球似乎在空中悬浮",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001732",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为1的球似乎在空中悬浮，并且没有明显的重",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001942",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图像中的视觉信息，无法确定编号为2的球接下来会向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001572",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索和物体的相对位置，编号为1的球似乎在左侧，",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000805",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来最可能向哪个方向运动。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001990",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图中的视觉线索和球体的位置关系，编号为2的球体似乎在左侧",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000120",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，没有明显的重力",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000759",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000914",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为2的球似乎在空中飞行，并且没有明显的重",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001553",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球位于图像中心位置，周围有其他颜色",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001793",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，无法确定编号为0的球接下来会向哪个方向运动。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001600",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001472",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图中的视觉线索和物体的位置关系，编号为0的球似乎在右侧有一个力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001971",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在空中悬浮，并没有明显的运动趋势",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000938",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球接下来会向哪个方向运动。因此",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000385",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图中的视觉线索和球体的位置关系，编号为0的球体似乎在左侧",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001228",
+    "prompt_type": "anti_bias"
+  },
+  {
+    "question": "注意：请客观分析，不要有任何偏向。每个方向（上/下/左/右）的可能性应该基于实际观察，而非先验偏好。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n客观回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉信息，编号为0的球似乎在图像的中心位置，周围有",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001474",
+    "prompt_type": "anti_bias"
+  }
+]

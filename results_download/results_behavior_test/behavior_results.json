@@ -1,0 +1,1007 @@
+{
+  "accuracy": 0.15,
+  "num_samples": 100,
+  "num_correct": 15,
+  "results": [
+    {
+      "seq_dir": "data/realistic/seq_001422",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001190",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000566",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000802",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001626",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001594",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001920",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000513",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000177",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001308",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000914",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001452",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/medium/seq_001695",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000242",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/medium/seq_001156",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000198",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000774",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000425",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000943",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000822",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000277",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000164",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000547",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001983",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000538",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/realistic/seq_001724",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001311",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001838",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000997",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001568",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001300",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001310",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000327",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000490",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001620",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/realistic/seq_000408",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000832",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001079",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001462",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001253",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000054",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000064",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/medium/seq_001451",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001901",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001481",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000150",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001335",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000946",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001293",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000161",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001076",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001057",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000768",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001640",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001495",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000285",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001926",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000524",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001332",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000332",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000717",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000079",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001389",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000722",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000951",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001583",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000262",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000989",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001212",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_001759",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000919",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000422",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001724",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000341",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001701",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/realistic/seq_000243",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000688",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001432",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000966",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001666",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/medium/seq_000203",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000713",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/realistic/seq_000757",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001732",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001942",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001572",
+      "ball_id": 2,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000805",
+      "ball_id": 1,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_001990",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "seq_dir": "data/realistic/seq_000120",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000759",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000914",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001553",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中3个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001793",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001600",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001472",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001971",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000938",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中2个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000385",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001228",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001474",
+      "ball_id": 0,
+      "frame_idx": 4,
+      "question": "图中1个球正在运动。请预测编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请只回答选项字母（A/B/C/D）：",
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "raw_response": "C",
+      "correct": false
+    }
+  ]
+}

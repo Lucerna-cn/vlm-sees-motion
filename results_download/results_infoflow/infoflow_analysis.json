@@ -1,0 +1,242 @@
+[
+  {
+    "seq_dir": "data/realistic/seq_001422",
+    "similarity": {
+      "cosine_similarity": 0.9999861121177673,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2260.1767578125,
+      "repr2_norm": 2260.1767578125
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到一个红色的",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/medium/seq_001190",
+    "similarity": {
+      "cosine_similarity": 0.9999837875366211,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2203.134765625,
+      "repr2_norm": 2203.134765625
+    },
+    "baseline_response": "C",
+    "physical_response": "D",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/realistic/seq_000566",
+    "similarity": {
+      "cosine_similarity": 0.9999867081642151,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2465.01611328125,
+      "repr2_norm": 2465.01611328125
+    },
+    "baseline_response": "C",
+    "physical_response": "D",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/realistic/seq_000802",
+    "similarity": {
+      "cosine_similarity": 0.9999794960021973,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2939.04296875,
+      "repr2_norm": 2939.04296875
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到三个球在",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/realistic/seq_001626",
+    "similarity": {
+      "cosine_similarity": 0.999983549118042,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2674.506591796875,
+      "repr2_norm": 2674.506591796875
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到两个球在",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/medium/seq_001594",
+    "similarity": {
+      "cosine_similarity": 0.9999956488609314,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2353.72021484375,
+      "repr2_norm": 2353.72021484375
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到三个球在",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_001920",
+    "similarity": {
+      "cosine_similarity": 0.9999922513961792,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1876.353271484375,
+      "repr2_norm": 1876.353271484375
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到两个球，",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_000513",
+    "similarity": {
+      "cosine_similarity": 0.9999945163726807,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1909.0592041015625,
+      "repr2_norm": 1909.0592041015625
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们无法直接看到球",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/realistic/seq_000177",
+    "similarity": {
+      "cosine_similarity": 0.9999892711639404,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2641.585205078125,
+      "repr2_norm": 2641.585205078125
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到一个带有数字",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_001308",
+    "similarity": {
+      "cosine_similarity": 0.9999912977218628,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1849.058349609375,
+      "repr2_norm": 1849.058349609375
+    },
+    "baseline_response": "B",
+    "physical_response": "根据图片中的信息，我们可以看到两个球，",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_000914",
+    "similarity": {
+      "cosine_similarity": 0.9999970197677612,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1928.2315673828125,
+      "repr2_norm": 1928.2315673828125
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们无法直接看到球",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/medium/seq_001452",
+    "similarity": {
+      "cosine_similarity": 0.9999734163284302,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2406.032470703125,
+      "repr2_norm": 2406.032470703125
+    },
+    "baseline_response": "C",
+    "physical_response": "D",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/medium/seq_001695",
+    "similarity": {
+      "cosine_similarity": 0.9999887943267822,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2116.851318359375,
+      "repr2_norm": 2116.851318359375
+    },
+    "baseline_response": "B",
+    "physical_response": "根据图片中的信息，球在接触地面后",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/realistic/seq_000242",
+    "similarity": {
+      "cosine_similarity": 0.9999895691871643,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2674.252197265625,
+      "repr2_norm": 2674.252197265625
+    },
+    "baseline_response": "C",
+    "physical_response": "D",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/medium/seq_001156",
+    "similarity": {
+      "cosine_similarity": 0.9999827742576599,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2792.76220703125,
+      "repr2_norm": 2792.76220703125
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到三个球在",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/medium/seq_000198",
+    "similarity": {
+      "cosine_similarity": 0.9999857544898987,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2403.708984375,
+      "repr2_norm": 2403.708984375
+    },
+    "baseline_response": "C",
+    "physical_response": "D",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_000774",
+    "similarity": {
+      "cosine_similarity": 0.9999932646751404,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1954.2115478515625,
+      "repr2_norm": 1954.2115478515625
+    },
+    "baseline_response": "D",
+    "physical_response": "根据图片中的信息，我们可以看到两个球，",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/realistic/seq_000425",
+    "similarity": {
+      "cosine_similarity": 0.9999819993972778,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 2344.922119140625,
+      "repr2_norm": 2344.922119140625
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到两个球在",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_000943",
+    "similarity": {
+      "cosine_similarity": 0.999993622303009,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1888.466796875,
+      "repr2_norm": 1888.466796875
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们可以看到三个球在",
+    "responses_differ": true
+  },
+  {
+    "seq_dir": "data/minimal/seq_000822",
+    "similarity": {
+      "cosine_similarity": 0.9999926090240479,
+      "mean_absolute_difference": 0.0,
+      "repr1_norm": 1882.691650390625,
+      "repr2_norm": 1882.691650390625
+    },
+    "baseline_response": "C",
+    "physical_response": "根据图片中的信息，我们无法确定具体的物理",
+    "responses_differ": true
+  }
+]

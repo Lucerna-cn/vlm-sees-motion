@@ -1,0 +1,12 @@
+{
+  "r2": 0.15425731300263884,
+  "mse": 31676.723562054518,
+  "relative_error": 0.9092691263723135,
+  "n_train": 945,
+  "n_test": 237,
+  "layer_idx": 31,
+  "target_type": "velocity",
+  "n_samples": 1182,
+  "baseline_r2": 0.9025635867372506,
+  "r2_over_baseline": -0.7483062737346118
+}

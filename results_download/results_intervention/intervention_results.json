@@ -1,0 +1,4212 @@
+{
+  "statistics": {
+    "total": 200,
+    "normal_accuracy": 0.2,
+    "patched_accuracy": 0.175,
+    "behavior_change_rate": 0.18,
+    "accuracy_drop_rate": 0.045,
+    "accuracy_change": -0.025
+  },
+  "results": [
+    {
+      "seq_dir": "data/realistic/seq_001422",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001422",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001190",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001190",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000566",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000566",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000802",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000802",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001626",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001626",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001594",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001594",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001920",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001920",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000513",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000513",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000177",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000177",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001308",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001308",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000914",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000914",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001452",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001452",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001695",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001695",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000242",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000242",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001156",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001156",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000198",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000198",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000774",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000774",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000425",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000425",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000943",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000943",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000822",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000822",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000277",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000277",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000164",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000164",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000547",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000547",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001983",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001983",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000538",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000538",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001724",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001724",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001311",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001311",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001838",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001838",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000997",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 35,
+      "correct_answer": "B",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000997",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 35,
+      "correct_answer": "B",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001568",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001568",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001300",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001300",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001310",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001310",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000327",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 20,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000327",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 20,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000490",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000490",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001620",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001620",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000408",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000408",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000832",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000832",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001079",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001079",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001462",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001462",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001253",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001253",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000054",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000054",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000064",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000064",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001451",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001451",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001901",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001901",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001481",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 42,
+      "correct_answer": "B",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_001481",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 42,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000150",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000150",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001335",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/medium/seq_001335",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000946",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000946",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001293",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001293",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000161",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000161",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001076",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001076",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001057",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001057",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_000768",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000768",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001640",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001640",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001495",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001495",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000285",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000285",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001926",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001926",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000524",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000524",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001332",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001332",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000332",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000332",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000717",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000717",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000079",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000079",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001389",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001389",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000722",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000722",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000951",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000951",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001583",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001583",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000262",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000262",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000989",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000989",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001212",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001212",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/minimal/seq_001759",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001759",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000919",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000919",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000422",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000422",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001724",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001724",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000341",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000341",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001701",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/medium/seq_001701",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000243",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000243",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000688",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000688",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "patched": {
+        "response": "D",
+        "answer": "D",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001432",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001432",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000966",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000966",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001666",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001666",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000203",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000203",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000713",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_000713",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000757",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000757",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001732",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001732",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001942",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": true
+    },
+    {
+      "seq_dir": "data/realistic/seq_001942",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001572",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001572",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000805",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000805",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "patched": {
+        "response": "A",
+        "answer": "A",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001990",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_001990",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "C",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": true
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000120",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000120",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000759",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000759",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000914",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000914",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001553",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001553",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001793",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001793",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001600",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/medium/seq_001600",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001472",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001472",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "B",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001971",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001971",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000938",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 15,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_000938",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 15,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000385",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/minimal/seq_000385",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "B",
+        "answer": "B",
+        "correct": false
+      },
+      "behavior_changed": true,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001228",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001228",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 25,
+      "correct_answer": "A",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001474",
+      "target_layer": 16,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    },
+    {
+      "seq_dir": "data/realistic/seq_001474",
+      "target_layer": 24,
+      "ball_id": 0,
+      "frame_idx": 3,
+      "patch_mode": "mean",
+      "num_patched_tokens": 49,
+      "correct_answer": "D",
+      "normal": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "patched": {
+        "response": "C",
+        "answer": "C",
+        "correct": false
+      },
+      "behavior_changed": false,
+      "accuracy_drop": false
+    }
+  ]
+}

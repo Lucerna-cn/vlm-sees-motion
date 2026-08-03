@@ -1,0 +1,14 @@
+{
+  "grounding_success_rate": 1.0,
+  "physics_success_rate": 0.19,
+  "grounding_ok_physics_fail_rate": 0.81,
+  "token_alignment": {
+    "n_samples": 50,
+    "direction_words": {
+      "\u4e0a": 0,
+      "\u4e0b": 0,
+      "\u5de6": 0,
+      "\u53f3": 0
+    }
+  }
+}

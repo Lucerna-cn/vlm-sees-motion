@@ -76,6 +76,9 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 
 **72.4% of all answers were "C" (left) — while only 22.2% of the ground-truth answers are C.** The confusion matrix tells the same story: 69–75% of non-C cases get misclassified as C, while true-C cases are answered correctly 77% of the time. The bias is strongest on visually complex inputs (realistic: 87.9% C) and with a single ball (77.8% C), and weakens on minimal scenes (49.3%). The model doesn't fail randomly — it has a **deterministic wrong mapping** from visual input to "C", completely disconnected from the physical information in its own representations.
 
+![Option distribution: model prediction vs. ground truth](paper_figures/fig5_option_distribution.png)
+*Default prompting collapses onto "C": 72.4% of predictions vs. 22.2% of ground-truth answers.*
+
 **Could we prove the language head never reads those velocity layers?** If it did, destroying them should wreck its answers. So we patched the tokens where velocity lives (Layers 16 & 24) — replacing them with their mean — and re-ran the behavior test (100 sequences × 2 layers = 200 interventions).
 
 | Metric | Value | Reading |
@@ -86,6 +89,9 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 | **Accuracy drop rate** | **4.5%** | **Key metric** |
 
 **The accuracy dropped by just 4.5%.** The language output barely noticed. This is the causal half of the dissociation: the information exists in the visual stream, and the language head simply does not use it.
+
+![Causal intervention effect](paper_figures/fig6_intervention.png)
+*Patching the velocity layers moves accuracy from 20.0% to 17.5% — a 4.5% drop, not the >20% expected if the layers were actually used.*
 
 **Was the probe even working?** Before trusting the velocity finding, we had to prove the probing method itself can extract information. So we decoded something a vision encoder must know — **ball position (x, y)** — with the same setup.
 
@@ -98,6 +104,9 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 | 31 | 0.9459 |
 
 **Position decodes linearly at R² ≈ 0.97** (peaking at Layer 16, and above 0.93 at every Transformer layer from 8 up). The pipeline has no trouble pulling information out of these representations. So the velocity result is not a method artifact: the model genuinely encodes *where* a ball is — linearly and precisely — and genuinely fails to encode *how fast it moves* in a comparable way.
+
+![Layer-wise probing curves](paper_figures/fig1_layer_r2_curve.png)
+*Position (blue, linear) is decoded almost perfectly from layer 8 onward; velocity (purple, MLP) peaks far lower.*
 
 | Information | Decodability | Encoding |
 |-------------|--------------|----------|
@@ -132,6 +141,9 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 
 **DINOv2 and SigLIP carry almost no velocity information (0.04 / 0.07) — Qwen2.5-VL has ten times more (0.42).** Velocity encoding is not a visual prior: it was *created* by language training. The visual encoder was taught physics — but can the language head ever read it?
 
+![Model comparison: DINOv2 vs SigLIP vs Qwen2.5-VL](paper_figures/fig2_model_comparison.png)
+*Best velocity R² across models: language training moves the score from 0.04–0.07 to 0.42 — roughly a tenfold gain.*
+
 **Can the language head read it — if we ask the right way?** We tried six different ways of asking the same question, including prompts that invite physical analysis or grounding in visual cues.
 
 | Prompt | Accuracy | C-bias | vs. baseline |
@@ -145,6 +157,9 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 
 **The model was capable all along.** A few words of physics guidance raise accuracy from 21% to 34% (+62%) and *completely eliminate* the C-bias (73% → 0%). Every prompt style helped. The dissociation wasn't a missing ability — it was an unactivated one.
 
+![Prompt engineering: accuracy and C-bias](paper_figures/fig3_prompt_engineering.png)
+*Every prompt strategy improves accuracy and erases the C-bias; physical analysis and visual grounding work best (+62%).*
+
 **What does the prompt actually change?** Not the visual features. Comparing the representations under baseline vs. physics prompts gives cosine similarity **1.0000** — identical visual encodings, yet 100% of the answers changed. The prompt never touches what the visual encoder *writes*; it only changes how the language head *reads*.
 
 **Why is reading so hard by default?** The geometry of the velocity information explains it. Position sits in a few explicit, separable dimensions (linear R² = 0.97). Velocity does not: it is spread across many dimensions on a continuous manifold (direction separation 0.0018, PCA–velocity correlation 0.03–0.09), decodable only non-linearly. The default language path takes a linear shortcut and falls into the C-bias; the right prompt supplies the "key" to read the manifold.
@@ -157,25 +172,38 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 | Direction separation | High | Very low (0.0018) |
 | Language use | Direct | Needs prompt activation |
 
+**The most direct evidence: what the model can and cannot say.** On the same images, we asked two kinds of questions: *where* the ball is (grounding) and *which way* it is moving (physics).
+
+| Task | Success rate |
+|------|--------------|
+| Grounding: "where is the ball?" | **100%** |
+| Physical reasoning: "which way is it moving?" | **19%** |
+| Grounding correct but physics wrong | **81%** |
+
+![Grounding vs. physical reasoning](paper_figures/fig4_grounding_vs_physics.png)
+*The model can say exactly where a ball sits, and on 81% of those same samples still cannot say where it is going.*
+
+The visual–language alignment is **selective**: position was a training objective and is aligned perfectly; velocity was never aligned, so the default language path cannot read it — until a prompt temporarily builds the bridge.
+
 ## What it all means
 
-Five findings now tell the full story:
+Five layers of evidence now tell the full story:
 
-1. **Language training created the velocity encoding** — pure-vision DINOv2 (0.04) and weak SigLIP (0.07) carry almost none; Qwen2.5-VL has 0.42
-2. **The default language path doesn't use it** — 21–23.6% accuracy with a systematic 72–73% C-bias
-3. **The ability is latent, not absent** — physical / visual prompts raise accuracy to 34% (+62%) and erase the bias
-4. **Prompts change decoding, not encoding** — visual representations are identical (similarity 1.0); only the readout changes
-5. **Velocity lives on an implicit manifold** — spread across dimensions, readable only non-linearly, so the language head needs the right prompt as the "key"
+1. **Representation (probing)** — velocity exists in the visual stream, but non-linearly (R² = 0.42); position is linear and nearly perfect (R² = 0.97)
+2. **Comparison (DINOv2 / SigLIP)** — language training created the velocity encoding: 0.04 / 0.07 → 0.42
+3. **Behavior (default prompts)** — grounding succeeds 100% but physical reasoning fails at 19%, with a systematic 72–73% C-bias
+4. **Causality (intervention)** — destroying the velocity layers changes language output by less than 5%
+5. **Activation (prompt engineering)** — proper prompts raise physical reasoning to 34% (+62%) and eliminate the bias
 
 | Hypothesis | Result | Evidence |
 |------------|--------|----------|
 | H1: position decodable | **Confirmed** | Linear R² = 0.97 (peak) |
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
-| H3: representation–behavior dissociation | **Revised: activation-dependent** | Prompting raises accuracy 21% → 34% and eliminates the C-bias |
+| H3: representation–behavior dissociation | **Revised: selective, activation-dependent alignment** | Grounding 100% vs. physics 19%; prompts 21% → 34% and erase the C-bias |
 | H4: language training enhances velocity encoding | **New finding** | Qwen2.5-VL 0.42 vs. DINOv2 0.04 / SigLIP 0.07 |
 | H5: latent physical reasoning, prompt-activatable | **New finding** | +62% accuracy with physical / visual prompts; bias 73% → 0% |
 
-Language training taught the visual encoder physics — and the language head *can* use it, but only when the prompt shows it how. Default prompting leaves the model on a shortcut; a few words of physics guidance awaken its latent reasoning. **Encoding is enhanced; reading is prompt-dependent.**
+Visual–language alignment in Qwen2.5-VL is **selective and prompt-dependent**: position grounding is aligned by training and always works; velocity lives on an implicit manifold, read only when the prompt supplies the key. The physics is in the representation — awakening it is a matter of asking the right way.
 
 ---
 
@@ -210,6 +238,7 @@ vlm_kinematics_probing/
 │   └── answer_bias.py       # 回答偏向分析 answer-bias analysis
 ├── intervention/
 │   └── patch_experiment.py  # 因果 token 干预 causal token-patching experiments
+├── paper_figures/           # 插图 PNGs（README 内嵌）figures embedded in README
 └── scripts/
     ├── day1_test.py         # 环境自检 environment sanity check
     ├── day3_probing.py      # Probing 主流程 main probing pipeline
@@ -221,7 +250,8 @@ vlm_kinematics_probing/
     ├── deep2_infoflow.py     # 信息流分析 information-flow analysis
     ├── deep3_geometry.py     # 表征几何分析 representation geometry
     ├── deep4_dynamics.py     # 训练动态分析 training-dynamics analysis
-    └── deep5_alignment.py    # 跨模态对齐分析 cross-modal alignment (WIP)
+    ├── deep5_alignment.py    # 跨模态对齐分析 cross-modal alignment analysis
+    └── generate_figures.py   # 图表生成 figure generation
 ```
 
 ## Installation
@@ -263,6 +293,7 @@ Results are saved as JSON under `results/` and `results_behavior/`.
 
 - Experiments ran on an RTX 5090 (32 GB) with `torch.bfloat16`; the 3B model fits comfortably.
 - A full 32-layer MLP probing run is in progress (~48h); results will be added when it completes.
+- Figures are generated by `scripts/generate_figures.py` from the raw JSON results in `results_download/`.
 
 ## License
 
@@ -346,6 +377,9 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 
 **72.4% 的回答都是"C"（左）——而正确答案里 C 只占 22.2%。** 混淆矩阵讲的是同一个故事：69–75% 的非 C 案例被误判为 C，真实为 C 的案例有 77% 答对。偏向在视觉复杂的输入上最严重（realistic 场景 87.9% 选 C）、单个球时也明显（77.8%），在极简场景（minimal）里则降到 49.3%。模型不是随机失败——它有一个**确定性的错误映射**，把视觉输入系统性映射到"C"，与它自己表征里的物理信息完全脱节。
 
+![选项分布：模型预测 vs 正确答案](paper_figures/fig5_option_distribution.png)
+*默认提问下回答坍缩到"C"：模型预测 72.4% vs 正确答案 22.2%。*
+
 **能不能证明语言头根本不读那些速度层？** 如果它在读，破坏这些层就该摧毁它的回答。于是我们把速度信息最强的 Layer 16、24 的球 token 全部替换成均值（patch），再跑行为测试（100 段 × 2 层 = 200 次干预）。
 
 | 指标 | 数值 | 解读 |
@@ -356,6 +390,9 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 | **准确率下降率** | **4.5%** | **关键指标** |
 
 **准确率只下降了 4.5%。** 语言输出几乎无动于衷。这就是解耦的因果半边：信息在视觉流里，语言头就是不用。
+
+![因果干预效果](paper_figures/fig6_intervention.png)
+*破坏速度层后准确率从 20.0% 降到 17.5%——只掉 4.5%，远低于"如果这些层被使用"预期的 20% 以上。*
 
 **那探针本身靠谱吗？** 在相信"速度结果"之前，必须先证明这套探针流程真的能提取信息。于是我们用同样的流程去解码一个视觉编码器必须知道的东西——**球的位置 (x, y)**。
 
@@ -368,6 +405,9 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 | 31 | 0.9459 |
 
 **位置可以以 R² ≈ 0.97 线性解码**（峰值在 Layer 16，Layer 8 以上全部超过 0.93）。这套流程提取表征信息毫无压力。所以速度的结果不是方法假象——模型真的编码了球**在哪**，而且是线性、精确地编码，却真的没有以可比的方式编码球**动得多快**。
+
+![逐层 probing 曲线](paper_figures/fig1_layer_r2_curve.png)
+*位置（蓝色，线性）从中层起近乎完美解码；速度（紫色，MLP）峰值低得多。*
 
 | 信息类型 | 可解码性 | 编码方式 |
 |---------|---------|---------|
@@ -402,6 +442,9 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 
 **DINOv2 和 SigLIP 里几乎没有任何速度信息（0.04 / 0.07）——Qwen2.5-VL 高出十倍（0.42）。** 速度编码不是视觉先验：它是**被语言训练创造出来的**。视觉编码器被教会了物理——但语言输出真的永远读不到它吗？
 
+![三模型对比：DINOv2 vs SigLIP vs Qwen2.5-VL](paper_figures/fig2_model_comparison.png)
+*语言训练把最佳速度 R² 从 0.04–0.07 提升到 0.42，约十倍。*
+
 **换个问法，语言头能读到吗？** 我们尝试了 6 种不同的提问方式，包括引导模型做物理分析、或者把注意力引向视觉线索。
 
 | 提示策略 | 准确率 | C 选项偏向 | 相对基线 |
@@ -415,6 +458,9 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 
 **模型一直都有这个能力，只是没被激活。** 几句物理引导就把准确率从 21% 提到 34%（+62%），C 偏向从 73% 直接归零。所有提示策略都有效。这不是"能力缺失"，而是"能力沉睡"。
 
+![提示工程：准确率与 C 偏向](paper_figures/fig3_prompt_engineering.png)
+*所有提示策略都提升准确率并消除 C 偏向；物理分析与视觉线索效果最好（+62%）。*
+
 **提示到底改变了什么？** 不是视觉特征。对比 baseline 和物理提示下的表征，余弦相似度 **1.0000**——视觉编码完全一致，但 100% 的回答都变了。提示从不改变视觉编码器**写**了什么，只改变语言头怎么**读**。
 
 **为什么默认状态下这么难读？** 速度信息的几何结构解释了这一点。位置信息集中在少数显式、可分离的维度上（线性 R²=0.97）。速度不是：它分散在大量维度上、形成一个连续流形（方向分离度 0.0018，PCA-速度相关性 0.03–0.09），只能非线性解码。默认的语言路径走"线性捷径"，于是掉进 C 偏向；恰当的提示相当于提供了读取这个流形的"钥匙"。
@@ -427,25 +473,38 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 | 方向分离度 | 高 | **极低 (0.0018)** |
 | 语言使用 | 直接可用 | **需要提示激活** |
 
+**最直接的证据：模型能说什么、不能说什么。** 对同一批图像，我们问了两种问题：球**在哪**（grounding），以及球往**哪**动（物理）。
+
+| 任务 | 成功率 |
+|------|--------|
+| Grounding："球在哪里？" | **100%** |
+| 物理推理："球往哪个方向动？" | **19%** |
+| Grounding 正确但物理错误 | **81%** |
+
+![Grounding vs 物理推理](paper_figures/fig4_grounding_vs_physics.png)
+*模型能准确说出球坐在哪里，却在 81% 的同一批样本上说不出它要去哪。*
+
+视觉-语言对齐是**选择性的**：位置是训练目标，对齐完美；速度从未被对齐，默认语言路径读不到——直到提示临时搭起这座桥。
+
 ## 这一切意味着什么
 
-五个发现拼成了完整的故事：
+五层证据拼成了完整的故事：
 
-1. **语言训练创造出了速度编码**——纯视觉 DINOv2（0.04）和弱语言 SigLIP（0.07）几乎为零，Qwen2.5-VL 有 0.42
-2. **默认的语言路径不使用它**——准确率 21–23.6%，伴随系统性的 72–73% C 偏向
-3. **能力是潜在的，不是缺失的**——物理/视觉提示把准确率提到 34%（+62%）并消除偏向
-4. **提示改变的是解码，不是编码**——视觉表征完全相同（相似度 1.0），变的只是读取方式
-5. **速度居住在隐式流形上**——分散在多维空间中，只能非线性读取，语言头需要恰当的提示作为"钥匙"
+1. **表征层（探针）**——速度存在于视觉流中，但是非线性的（R² = 0.42）；位置是线性的、近乎完美（R² = 0.97）
+2. **对比层（DINOv2 / SigLIP）**——语言训练创造出了速度编码：0.04 / 0.07 → 0.42
+3. **行为层（默认提示）**——Grounding 100% 成功，物理推理只有 19%，伴随 72–73% 的 C 偏向
+4. **因果层（干预）**——破坏速度层后语言输出变化不到 5%
+5. **激活层（提示工程）**——恰当提示把物理推理提到 34%（+62%）并消除偏向
 
 | 假设 Hypothesis | 结果 Result | 证据 Evidence |
 |----------------|------------|---------------|
 | H1: 位置可解码 Position decodable | **✓ 成立 Confirmed** | 线性 R² = 0.97（峰值） |
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
-| H3: 表征-行为解耦 Dissociation | **修正：取决于激活 Revised: activation-dependent** | 提示使准确率 21% → 34%，并消除 C 偏向 |
+| H3: 表征-行为解耦 Dissociation | **修正：选择性、提示依赖的对齐 Revised: selective, activation-dependent alignment** | Grounding 100% vs 物理 19%；提示 21% → 34% 并消除 C 偏向 |
 | H4: 语言训练增强速度编码 Language training enhances encoding | **新发现 New finding** | Qwen 0.42 vs DINOv2 0.04 / SigLIP 0.07 |
 | H5: 潜在物理推理可被提示激活 Latent reasoning, prompt-activatable | **新发现 New finding** | 物理/视觉提示 +62%，偏向 73% → 0% |
 
-语言训练教会了视觉编码器物理——语言头**能**用，但需要提示告诉它怎么用。默认提问让它走捷径；几句物理引导就唤醒了它的潜在推理。**编码被增强，读取取决于提示。**
+Qwen2.5-VL 的视觉-语言对齐是**选择性且提示依赖的**：位置 grounding 被训练对齐、永远有效；速度居住在隐式流形上，只有提示给出"钥匙"才能被读取。物理就在表征里——唤醒它，只差一个正确的问法。
 
 ---
 
@@ -480,6 +539,7 @@ vlm_kinematics_probing/
 │   └── answer_bias.py       # 回答偏向分析
 ├── intervention/
 │   └── patch_experiment.py  # 因果 token 干预实验
+├── paper_figures/           # 插图（README 内嵌）
 └── scripts/
     ├── day1_test.py         # 环境自检
     ├── day3_probing.py      # Probing 主流程
@@ -491,7 +551,8 @@ vlm_kinematics_probing/
     ├── deep2_infoflow.py     # 信息流分析
     ├── deep3_geometry.py     # 表征几何分析
     ├── deep4_dynamics.py     # 训练动态分析
-    └── deep5_alignment.py    # 跨模态对齐分析（进行中）
+    ├── deep5_alignment.py    # 跨模态对齐分析
+    └── generate_figures.py   # 图表生成
 ```
 
 ## 安装
@@ -533,6 +594,7 @@ python scripts/day5_behavior.py --data_dir ./data \
 
 - 实验在 RTX 5090（32 GB）上以 `torch.bfloat16` 运行，3B 模型可以轻松加载。
 - 全 32 层 MLP probing 正在进行（预计约 48 小时），完成后会补充结果。
+- 图表由 `scripts/generate_figures.py` 从 `results_download/` 的原始 JSON 结果生成。
 
 ## 许可证
 

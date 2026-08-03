@@ -1,0 +1,35 @@
+{
+  "architecture": {
+    "num_visual_layers": 32,
+    "has_projector": false
+  },
+  "component": {
+    "visual_r2": 0.07907351516796557,
+    "n_samples": 197,
+    "n_dims": 1280,
+    "active_dims": 1280,
+    "active_ratio": 1.0
+  },
+  "bottleneck": {
+    "0": {
+      "r2": -0.1457481025498597,
+      "n_samples": 96
+    },
+    "8": {
+      "r2": -0.2337652576192597,
+      "n_samples": 96
+    },
+    "16": {
+      "r2": -0.36300774815796155,
+      "n_samples": 96
+    },
+    "24": {
+      "r2": -0.5237482230849373,
+      "n_samples": 96
+    },
+    "31": {
+      "r2": -0.9163149464676479,
+      "n_samples": 96
+    }
+  }
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001422",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001190",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000566",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索，编号为0的球似乎正在向右移动。因此，正确",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000802",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001626",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001594",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001920",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000513",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000177",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001308",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000914",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001452",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001695",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000242",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001156",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000198",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000774",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000425",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000943",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000822",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000277",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000164",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000547",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001983",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000538",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001724",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001311",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001838",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000997",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001568",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001300",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和运动趋势，我们可以看到球正在向右移动。因此，正确",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001310",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000327",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000490",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索，球0似乎正在向右移动。因此，正确答案是：\n\n",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001620",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000408",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000832",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001079",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001462",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索，编号为1的球似乎正在向右移动。因此，正确",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001253",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000054",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000064",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001451",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为2的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001901",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中显示的红色球的位置和大小，它看起来像是静止不动的。因此",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001481",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000150",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001335",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000946",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001293",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000161",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001076",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001057",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000768",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为2的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001640",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和颜色，我们可以看到一个红色的球和一个绿色的球。",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001495",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为2的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索，编号为2的球似乎正在向右移动。因此，正确",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000285",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为2的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001926",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000524",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001332",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和运动趋势，我们可以看到球正在向右移动。因此，正确",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000332",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和运动趋势，我们可以看到球正在向右移动。因此，正确",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000717",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和运动趋势，我们可以看到球正在向右移动。因此，正确",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000079",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001389",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "raw_response": "B. 下",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000722",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和大小，我们可以看到它位于画面的左下角。由于没有",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000951",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001583",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000262",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000989",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001212",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001759",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000919",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000422",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_001724",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为2的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000341",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001701",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000243",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000688",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和运动趋势，我们可以看到球正在向右移动。因此，正确",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001432",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000966",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为2的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001666",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000203",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000713",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000757",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的视觉线索，球0似乎正在向右移动。因此，正确答案是：\n\n",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001732",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001942",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001572",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000805",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001990",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000120",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000759",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000914",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001553",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001793",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中球的位置和运动趋势，我们可以看到球正在向右移动。因此，正确",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001600",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001472",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001971",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为1的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000938",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000385",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "A. 上",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001228",
+    "prompt_type": "visual_grounding"
+  },
+  {
+    "question": "请先定位编号为0的球在图像中的位置，然后观察其运动趋势。根据视觉线索（如位置变化、运动模糊等），预测该球接下来的运动方向：\nA. 上\nB. 下\nC. 左\nD. 右\n\n回答：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D. 右",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001474",
+    "prompt_type": "visual_grounding"
+  }
+]

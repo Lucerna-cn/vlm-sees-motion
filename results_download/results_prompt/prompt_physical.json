@@ -1,0 +1,902 @@
+[
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球在空中飞行，并且有一个蓝色的线",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001422",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中运动。由于没有提供具体的初始速度或",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001190",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000566",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个绿色的球（编号1）正在撞击蓝色的球",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000802",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001626",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001594",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球，一个标有数字1，另一个标有数字",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001920",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法直接看到球的具体运动状态或受到的力的作用情况。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000513",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球（编号为0），它正受到来自",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000177",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中相遇并发生碰撞。由于没有提供具体的",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_001308",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体状态。因此，无法准确",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000914",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001452",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，球在接触地面后会反弹，由于没有其他力的作用（如",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001695",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000242",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001156",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "raw_response": "B",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000198",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球，一个红色的球（编号为0）和",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000774",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在运动。由于没有提供具体的初始速度、加",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000425",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们假设这是一个二维平面内的理想弹性碰撞问题。在理想弹性碰撞中",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000943",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体状态。因此，我无法",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000822",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球在一条斜线上，这条线似乎代表",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000277",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000164",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定具体的物理运动场景和球的初始状态。因此，无法",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000547",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在灰色背景上运动。由于没有提供具体的初始",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001983",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，两个球在空中相遇并发生碰撞。由于没有提供具体的初始速度",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000538",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001724",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体的行为。因此，我无法",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_001311",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球（编号为0）与其他几个球发生了",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001838",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球在空中飞行，并且有一个明显的下",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000997",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中运动。由于没有提供具体的初始速度和",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001568",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法直接看到两个球的具体位置关系或运动状态。但是，",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001300",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001310",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000327",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000490",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定具体的物理运动情况，因为没有提供足够的信息来分析球",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001620",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球在与另一个球发生碰撞后，",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000408",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000832",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001079",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，两个球在接触时发生了碰撞。通常情况下，当两个物体发生",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001462",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为0的球在空中飞行，并且受到重力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001253",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体的初始状态。因此，",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000054",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000064",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，两个球在空中相遇并发生碰撞。由于没有提供具体的初始速度",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001451",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据题目描述，我们假设这3个球在平面上运动，并且没有其他外力",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001901",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体状态。因此，无法准确",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001481",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000150",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001335",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000946",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中相遇并发生碰撞。由于没有提供具体的",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001293",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000161",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空间中运动。由于没有提供具体的初始速度",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001076",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001057",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000768",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球在受到力的作用后，由于惯",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001640",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，两个球在接触时发生了碰撞。通常情况下，当两个物体发生",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001495",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度或",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000285",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定编号为0的球的具体运动状态。因此，我们无法",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001926",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000524",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001332",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，球在接触地面后会反弹，由于重力的作用，它会",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000332",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，球在空中飞行时，由于重力的作用，它会向下运动",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000717",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定具体的物理运动场景和球的初始状态。因此，无法",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000079",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，球在碰撞后会沿着接触点的法线方向反弹。由于",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001389",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。编号为2的球似乎正在",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000722",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法直接看到球的具体运动状态或受到的力的作用情况。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000951",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球（编号为0）正在与另一个绿色",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001583",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": true,
+    "seq_dir": "data/medium/seq_000262",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体状态。因此，无法准确",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000989",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定两个球的具体运动状态和轨迹。因此，无法准确预测",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001212",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球，一个编号为0，另一个编号为1。",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001759",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空间中运动。由于没有提供具体的初始条件",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000919",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，无法确定具体的物理运动情况，因为没有提供足够的信息来分析球",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000422",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体状态。因此，无法准确",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001724",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000341",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中运动。由于没有提供具体的初始速度或",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001701",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为2的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为2的球在空中飞行，并且受到重力",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000243",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_000688",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的两个球的位置关系和相对速度，我们可以推断出编号为0的球",
+    "correct": false,
+    "seq_dir": "data/medium/seq_001432",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体的行为。因此，我无法",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000966",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球在空中运动，并且受到重力",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001666",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "B",
+    "raw_response": "B",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000203",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中相遇并发生碰撞。由于没有提供具体的",
+    "correct": false,
+    "seq_dir": "data/medium/seq_000713",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在相互作用。由于没有提供具体的初始速度和",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000757",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001732",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到两个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001942",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到三个球在空中运动。由于没有提供具体的初始速度、",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001572",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000805",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "C",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/minimal/seq_001990",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000120",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球（编号为0）在空中飞行。",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000759",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_000914",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有3个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为1的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到编号为1的球在空中飞行，并且受到重力",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001553",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球（编号为0），它在空中飞行",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001793",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，球在接触地面后会受到重力的作用，因此它将向下",
+    "correct": true,
+    "seq_dir": "data/medium/seq_001600",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "B",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001472",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个球（编号为0）在受到外力作用后",
+    "correct": false,
+    "seq_dir": "data/realistic/seq_001971",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有2个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个绿色的球（编号为0）正在与另一个物体",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_000938",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们无法确定具体的物理运动场景或物体状态。因此，我无法",
+    "correct": true,
+    "seq_dir": "data/minimal/seq_000385",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "A",
+    "predicted_answer": "A",
+    "raw_response": "根据图片中的信息，我们可以看到一个红色的球（编号为0）在空中飞行，并",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001228",
+    "prompt_type": "physical"
+  },
+  {
+    "question": "请仔细分析这张物理运动场景。图中有1个球，它们遵循物理定律运动。考虑速度、加速度和碰撞等因素。编号为0的球接下来最可能向哪个方向运动？\nA. 上\nB. 下\nC. 左\nD. 右\n\n请基于物理分析回答选项字母：",
+    "correct_answer": "D",
+    "predicted_answer": "D",
+    "raw_response": "D",
+    "correct": true,
+    "seq_dir": "data/realistic/seq_001474",
+    "prompt_type": "physical"
+  }
+]

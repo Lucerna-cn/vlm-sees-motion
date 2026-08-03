@@ -1,0 +1,55 @@
+{
+  "baseline": {
+    "accuracy": 0.21,
+    "num_samples": 100,
+    "option_distribution": {
+      "C": 73,
+      "D": 10,
+      "B": 11,
+      "A": 6
+    }
+  },
+  "physical": {
+    "accuracy": 0.34,
+    "num_samples": 100,
+    "option_distribution": {
+      "A": 75,
+      "D": 23,
+      "B": 2
+    }
+  },
+  "cot": {
+    "accuracy": 0.29,
+    "num_samples": 100,
+    "option_distribution": {
+      "A": 94,
+      "B": 6
+    }
+  },
+  "explicit": {
+    "accuracy": 0.3,
+    "num_samples": 100,
+    "option_distribution": {
+      "D": 83,
+      "B": 8,
+      "A": 9
+    }
+  },
+  "visual_grounding": {
+    "accuracy": 0.34,
+    "num_samples": 100,
+    "option_distribution": {
+      "A": 69,
+      "D": 23,
+      "B": 8
+    }
+  },
+  "anti_bias": {
+    "accuracy": 0.31,
+    "num_samples": 100,
+    "option_distribution": {
+      "A": 99,
+      "D": 1
+    }
+  }
+}
