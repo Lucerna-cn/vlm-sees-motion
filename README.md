@@ -130,25 +130,52 @@ At the mid-layers (16–24), the MLP jumps to **R² ≈ 0.42**. Velocity is ther
 | 8 | 0.0378 | 0.0693 |
 | 11 | 0.0167 | -0.1568 |
 
-**DINOv2 and SigLIP carry almost no velocity information (0.04 / 0.07) — Qwen2.5-VL has ten times more (0.42).** Velocity encoding is not a visual prior: it was *created* by language training. The visual encoder was taught physics — and then the language head ignores it anyway.
+**DINOv2 and SigLIP carry almost no velocity information (0.04 / 0.07) — Qwen2.5-VL has ten times more (0.42).** Velocity encoding is not a visual prior: it was *created* by language training. The visual encoder was taught physics — but can the language head ever read it?
+
+**Can the language head read it — if we ask the right way?** We tried six different ways of asking the same question, including prompts that invite physical analysis or grounding in visual cues.
+
+| Prompt | Accuracy | C-bias | vs. baseline |
+|--------|----------|--------|--------------|
+| baseline (plain) | 21.0% | 73.0% | - |
+| **physical analysis** | **34.0%** | **0.0%** | **+62%** |
+| **visual grounding** | **34.0%** | **0.0%** | **+62%** |
+| anti-bias instruction | 31.0% | 0.0% | +48% |
+| explicit physics laws | 30.0% | 0.0% | +43% |
+| chain-of-thought | 29.0% | 0.0% | +38% |
+
+**The model was capable all along.** A few words of physics guidance raise accuracy from 21% to 34% (+62%) and *completely eliminate* the C-bias (73% → 0%). Every prompt style helped. The dissociation wasn't a missing ability — it was an unactivated one.
+
+**What does the prompt actually change?** Not the visual features. Comparing the representations under baseline vs. physics prompts gives cosine similarity **1.0000** — identical visual encodings, yet 100% of the answers changed. The prompt never touches what the visual encoder *writes*; it only changes how the language head *reads*.
+
+**Why is reading so hard by default?** The geometry of the velocity information explains it. Position sits in a few explicit, separable dimensions (linear R² = 0.97). Velocity does not: it is spread across many dimensions on a continuous manifold (direction separation 0.0018, PCA–velocity correlation 0.03–0.09), decodable only non-linearly. The default language path takes a linear shortcut and falls into the C-bias; the right prompt supplies the "key" to read the manifold.
+
+| Property | Position | Velocity |
+|----------|----------|----------|
+| Encoding | Explicit, separated | Implicit, manifold |
+| Linear decodability | Very high (R² = 0.97) | Low (R² = 0.36) |
+| Non-linear decodability | - | Moderate (R² = 0.42) |
+| Direction separation | High | Very low (0.0018) |
+| Language use | Direct | Needs prompt activation |
 
 ## What it all means
 
-Four independent layers of evidence now point the same way:
+Five findings now tell the full story:
 
-1. **Representation**: velocity exists in the visual stream, but non-linearly (R² = 0.42)
-2. **Comparison**: language training created that velocity encoding — DINOv2 and SigLIP carry almost none (0.04 / 0.07)
-3. **Behavior**: the language head answers with a systematic bias (72.4% pick C) at 23.6% accuracy
-4. **Causality**: destroying the velocity layers changes language output by less than 5%
+1. **Language training created the velocity encoding** — pure-vision DINOv2 (0.04) and weak SigLIP (0.07) carry almost none; Qwen2.5-VL has 0.42
+2. **The default language path doesn't use it** — 21–23.6% accuracy with a systematic 72–73% C-bias
+3. **The ability is latent, not absent** — physical / visual prompts raise accuracy to 34% (+62%) and erase the bias
+4. **Prompts change decoding, not encoding** — visual representations are identical (similarity 1.0); only the readout changes
+5. **Velocity lives on an implicit manifold** — spread across dimensions, readable only non-linearly, so the language head needs the right prompt as the "key"
 
 | Hypothesis | Result | Evidence |
 |------------|--------|----------|
 | H1: position decodable | **Confirmed** | Linear R² = 0.97 (peak) |
 | H2: velocity decodable | Partially supported | Non-linear R² = 0.42, linear R² = 0.36 |
-| H3: representation–behavior dissociation | **Extremely strongly supported** | Representation 42% vs. behavior 23.6%; causal intervention effect <5% |
+| H3: representation–behavior dissociation | **Revised: activation-dependent** | Prompting raises accuracy 21% → 34% and eliminates the C-bias |
 | H4: language training enhances velocity encoding | **New finding** | Qwen2.5-VL 0.42 vs. DINOv2 0.04 / SigLIP 0.07 |
+| H5: latent physical reasoning, prompt-activatable | **New finding** | +62% accuracy with physical / visual prompts; bias 73% → 0% |
 
-Language training made the visual encoder *better at physics* — and the language head still ignores it. The model was taught how balls move, and then refuses to use that knowledge when answering. That is the full picture: **encoding enhanced, reasoning disconnected.**
+Language training taught the visual encoder physics — and the language head *can* use it, but only when the prompt shows it how. Default prompting leaves the model on a shortcut; a few words of physics guidance awaken its latent reasoning. **Encoding is enhanced; reading is prompt-dependent.**
 
 ---
 
@@ -189,7 +216,12 @@ vlm_kinematics_probing/
     ├── day5_behavior.py     # 行为评测主流程 main behavior-evaluation pipeline
     ├── day5_behavior_open.py # 开放式行为评测 open-ended behavior evaluation
     ├── day6_intervention.py  # 因果干预实验 causal intervention experiments
-    └── day7_comparison.py    # 对比模型 probing (DINOv2/SigLIP) comparison probing
+    ├── day7_comparison.py    # 对比模型 probing (DINOv2/SigLIP) comparison probing
+    ├── deep1_prompt.py       # 提示工程干预 prompt-engineering interventions
+    ├── deep2_infoflow.py     # 信息流分析 information-flow analysis
+    ├── deep3_geometry.py     # 表征几何分析 representation geometry
+    ├── deep4_dynamics.py     # 训练动态分析 training-dynamics analysis
+    └── deep5_alignment.py    # 跨模态对齐分析 cross-modal alignment (WIP)
 ```
 
 ## Installation
@@ -368,25 +400,52 @@ R² ≈ 0。一张小球的照片并不能告诉你它运动得多快——模�
 | 8 | 0.0378 | 0.0693 |
 | 11 | 0.0167 | -0.1568 |
 
-**DINOv2 和 SigLIP 里几乎没有任何速度信息（0.04 / 0.07）——Qwen2.5-VL 高出十倍（0.42）。** 速度编码不是视觉先验：它是**被语言训练创造出来的**。视觉编码器被教会了物理——然后语言输出照样无视它。
+**DINOv2 和 SigLIP 里几乎没有任何速度信息（0.04 / 0.07）——Qwen2.5-VL 高出十倍（0.42）。** 速度编码不是视觉先验：它是**被语言训练创造出来的**。视觉编码器被教会了物理——但语言输出真的永远读不到它吗？
+
+**换个问法，语言头能读到吗？** 我们尝试了 6 种不同的提问方式，包括引导模型做物理分析、或者把注意力引向视觉线索。
+
+| 提示策略 | 准确率 | C 选项偏向 | 相对基线 |
+|---------|--------|-----------|---------|
+| baseline（原始提问） | 21.0% | 73.0% | - |
+| **物理分析 physical** | **34.0%** | **0.0%** | **+62%** |
+| **视觉线索 visual grounding** | **34.0%** | **0.0%** | **+62%** |
+| 反对偏向 anti-bias | 31.0% | 0.0% | +48% |
+| 明确物理定律 explicit | 30.0% | 0.0% | +43% |
+| 链式思考 chain-of-thought | 29.0% | 0.0% | +38% |
+
+**模型一直都有这个能力，只是没被激活。** 几句物理引导就把准确率从 21% 提到 34%（+62%），C 偏向从 73% 直接归零。所有提示策略都有效。这不是"能力缺失"，而是"能力沉睡"。
+
+**提示到底改变了什么？** 不是视觉特征。对比 baseline 和物理提示下的表征，余弦相似度 **1.0000**——视觉编码完全一致，但 100% 的回答都变了。提示从不改变视觉编码器**写**了什么，只改变语言头怎么**读**。
+
+**为什么默认状态下这么难读？** 速度信息的几何结构解释了这一点。位置信息集中在少数显式、可分离的维度上（线性 R²=0.97）。速度不是：它分散在大量维度上、形成一个连续流形（方向分离度 0.0018，PCA-速度相关性 0.03–0.09），只能非线性解码。默认的语言路径走"线性捷径"，于是掉进 C 偏向；恰当的提示相当于提供了读取这个流形的"钥匙"。
+
+| 特性 | 位置信息 | 速度信息 |
+|------|---------|---------|
+| 编码方式 | 显式、分离 | **隐式、流形** |
+| 线性可解码性 | 极高 (R²=0.97) | 低 (R²=0.36) |
+| 非线性可解码性 | - | 中等 (R²=0.42) |
+| 方向分离度 | 高 | **极低 (0.0018)** |
+| 语言使用 | 直接可用 | **需要提示激活** |
 
 ## 这一切意味着什么
 
-四层相互独立的证据指向同一个结论：
+五个发现拼成了完整的故事：
 
-1. **表征层**：速度信息存在于视觉流中，但是非线性的（R² = 0.42）
-2. **对比层**：语言训练创造出了这段速度编码——DINOv2 和 SigLIP 几乎为零（0.04 / 0.07）
-3. **行为层**：语言头用系统性偏向作答（72.4% 选 C），准确率仅 23.6%
-4. **因果层**：破坏速度信息层后，语言输出变化不到 5%
+1. **语言训练创造出了速度编码**——纯视觉 DINOv2（0.04）和弱语言 SigLIP（0.07）几乎为零，Qwen2.5-VL 有 0.42
+2. **默认的语言路径不使用它**——准确率 21–23.6%，伴随系统性的 72–73% C 偏向
+3. **能力是潜在的，不是缺失的**——物理/视觉提示把准确率提到 34%（+62%）并消除偏向
+4. **提示改变的是解码，不是编码**——视觉表征完全相同（相似度 1.0），变的只是读取方式
+5. **速度居住在隐式流形上**——分散在多维空间中，只能非线性读取，语言头需要恰当的提示作为"钥匙"
 
 | 假设 Hypothesis | 结果 Result | 证据 Evidence |
 |----------------|------------|---------------|
 | H1: 位置可解码 Position decodable | **✓ 成立 Confirmed** | 线性 R² = 0.97（峰值） |
 | H2: 速度可解码 Velocity decodable | 部分成立 Partially supported | 非线性 R² = 0.42，线性 R² = 0.36 |
-| H3: 表征-行为解耦 Dissociation | **极强成立 Extremely strongly supported** | 表征 42% vs 行为 23.6%；因果干预影响 <5% |
+| H3: 表征-行为解耦 Dissociation | **修正：取决于激活 Revised: activation-dependent** | 提示使准确率 21% → 34%，并消除 C 偏向 |
 | H4: 语言训练增强速度编码 Language training enhances encoding | **新发现 New finding** | Qwen 0.42 vs DINOv2 0.04 / SigLIP 0.07 |
+| H5: 潜在物理推理可被提示激活 Latent reasoning, prompt-activatable | **新发现 New finding** | 物理/视觉提示 +62%，偏向 73% → 0% |
 
-语言训练让视觉编码器**更懂物理**——而语言输出依然无视它。模型被教会了球怎么动，却拒绝在回答时使用这份知识。这就是完整图景：**编码被增强，推理仍脱节。**
+语言训练教会了视觉编码器物理——语言头**能**用，但需要提示告诉它怎么用。默认提问让它走捷径；几句物理引导就唤醒了它的潜在推理。**编码被增强，读取取决于提示。**
 
 ---
 
@@ -427,7 +486,12 @@ vlm_kinematics_probing/
     ├── day5_behavior.py     # 行为评测主流程
     ├── day5_behavior_open.py # 开放式行为评测
     ├── day6_intervention.py  # 因果干预实验
-    └── day7_comparison.py    # 对比模型 probing（DINOv2/SigLIP）
+    ├── day7_comparison.py    # 对比模型 probing（DINOv2/SigLIP）
+    ├── deep1_prompt.py       # 提示工程干预
+    ├── deep2_infoflow.py     # 信息流分析
+    ├── deep3_geometry.py     # 表征几何分析
+    ├── deep4_dynamics.py     # 训练动态分析
+    └── deep5_alignment.py    # 跨模态对齐分析（进行中）
 ```
 
 ## 安装
